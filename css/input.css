@@ -1,0 +1,137 @@
+@keyframes close {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        pointer-events: none;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.closing {
+    animation-name: close;
+    animation-duration: 0.5s;
+}
+
+.input-alert {
+    @extend: '.centered';
+    width: 60%; 
+    background-color: var(--bg);
+    padding: 4em 4em;
+    font-weight: 200;
+    z-index: 98;
+}
+
+.input-alert input[type="text"] {
+    border: none;
+    border-bottom: solid transparent 1px;
+    outline: none;
+
+    background-color: transparent;
+
+    font-family: inherit;
+    font-size: inherit;
+    color: var(--color);
+    
+    position: relative;
+
+    transition: border-bottom 0.5s;
+
+    padding: 0.5em 0;
+    width: 80%;
+
+    text-align: center;
+}
+
+.input-alert input[type="text"]:focus {
+    border-bottom: solid var(--theme) 1px;
+}
+
+.input-alert h1 {
+    font-weight: 200;
+}
+
+.cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    transition: 0.5s;
+    z-index: 97;
+
+    pointer-events: none;
+
+    background-color: transparent;
+}
+
+.cover.active {
+    background-color: rgba(114, 114, 114, 0.8);
+    pointer-events: all;
+}
+
+.button.cancel {
+    border: solid rgb(170, 170, 170) 1px;
+    color: rgb(170, 170, 170);
+}
+
+.input-alert .button {
+    border: solid var(--theme) 1px;
+    display: inline-block;
+    margin: 0.5em auto;
+    width: 60%;
+    margin-left: 20%;
+    cursor: pointer; 
+
+    padding: 0.5em 0;
+
+    position: relative;
+    z-index: 100;
+
+    transition: color 0.1s;
+
+    color: var(--theme);
+
+    text-align: center;
+
+    font-weight: 500;
+    user-select: none;
+}
+
+.input-alert .button::before {
+    content: '';
+    z-index: -10;
+
+    position: absolute;
+    width: 50%;
+    top: 25%;
+    left: 25%;
+    height: 50%;
+
+    background-color: var(--bg);
+
+    transition: 0.1s;
+}
+
+.input-alert .button:hover {
+    color: var(--bg);
+}
+
+.input-alert .button.cancel:hover::before {
+    background-color: rgb(170, 170, 170);
+}
+
+.input-alert .button:hover::before {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--theme);
+}

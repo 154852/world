@@ -1,0 +1,119 @@
+.ui-top {
+    position: fixed;
+    display: inline-block;
+
+    top: 0;
+    left: 0;
+    height: 5%;
+    width: auto;
+
+    background-color: var(--bg2);
+    padding-right: 0.05em;
+    border-right: solid var(--theme) 0.3vw;
+
+    z-index: 96;
+    user-select: none;
+}
+
+.ui-top .bg-image {
+    height: 4vh;
+    width: 4.1vh;
+    margin: 0.5vh 0.5vh;
+
+    position: relative;
+}
+
+.ui-top .button {
+    cursor: pointer;
+}
+
+.ui-top .button:hover::before {
+    opacity: 1;
+}
+
+.ui-top .button::before {
+    content: '';
+    display: block;
+
+    position: absolute;
+    top: -0.5vh;
+    left: -0.5vh;
+    width: calc(100% + 1vh);
+    height: calc(100% + 1vh);
+
+    opacity: 0;
+    background-color: var(--theme);
+
+    transition: opacity 0.5s;
+
+    z-index: -1;
+}
+
+.bg-image {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ui-top h1 {
+    margin: 0.3em 1vh;
+    font-size: 2.6vh;
+    font-weight: 200;
+}
+
+.ui-top > * {
+    float: left;
+}
+
+.dropdown {
+    position: absolute;
+
+    top: calc(100% + 0.5vh);
+    left: -0.5vh;
+
+    background-color: var(--color);
+    color: var(--bg);
+    width: 20vw;
+
+    border-radius: 0.3em;
+    border-top-left-radius: 0;
+
+    overflow: hidden;
+
+    pointer-events: none;
+    opacity: 0;
+
+    transition: opacity 0.15s linear;
+
+    cursor: default;
+}
+
+.dropdown.enabled {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.dropdown-title {
+    text-align: center;
+    background-color: var(--theme);
+    color: var(--color);
+    margin: 0;
+    padding: 0.5em 0;
+
+    border-bottom: solid var(--color) 1px;
+}
+
+.dropdown-choice {
+    margin: 0 0;
+    padding: 0.5em 0 0.5em 0.5em;
+    background-color: transparent;
+
+    transition: color 0.3s linear, background-color 0.3s linear;
+
+    cursor: pointer;
+}
+
+.dropdown-choice:hover {
+    background-color: var(--theme);
+    color: var(--color);
+}

@@ -1,0 +1,63 @@
+:root {
+    --theme: #3498DB;
+    --bg: #1C2833;
+    --color: white;
+    --bg2: rgb(35, 53, 70);
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    background-color: var(--bg);
+
+    color: var(--color);
+}
+
+html {
+    height: 100%;
+    background-color: var(--bg);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    margin: 0;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-keep {
+    flex: 0 1 auto;
+}
+
+.flex-remaining {
+    flex: 1 1 auto;
+}
+
+.full-w {
+    width: 100% !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.region {
+    stroke-width: 0.5px;
+
+    transition: 0.5s;
+}
+
+.region-svg {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+}

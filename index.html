@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Computed God</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,500" rel="stylesheet" />
+        <script src="https://lib-rary.netlify.com/ecss.js"></script>
+
+        <script src="js/utils.js"></script>
+        <script src="js/input.js"></script>
+        <script src="js/map.js"></script>
+        <script src="js/ui.js"></script>
+        <script src="data/maps.js"></script>
+
+        <script>
+            const toGet = ['css/main.css', 'css/input.css', 'css/ui.css'];
+            let ECSSFound = 0;
+            let ECSSString = '';
+
+            toGet.forEach(function(item) {
+                const xhr=new XMLHttpRequest();
+                xhr.onload=function(){
+                    ECSSFound += 1;
+                    ECSSString += this.responseText + '\n';
+                };
+                xhr.open('GET',item);
+                xhr.send();
+            });
+            const _ECSSInterval = setInterval(function() {
+                if (ECSSFound == toGet.length) {
+                    const style = document.createElement('style');
+                    style.innerHTML = ECSS(ECSSString);
+                    document.head.appendChild(style);
+
+                    clearInterval(_ECSSInterval);
+                }
+            });
+            document.currentScript.parentElement.removeChild(document.currentScript);
+        </script>
+    </head>
+    <body>
+        <div class="ui-top">
+            <h1>Computed God</h1>
+            <div class="bg-image button" style="background-image: url(res/planet.svg)">
+                <div class="dropdown" id="chloroplast-dropdown">
+                    <p class="dropdown-title">Chloropleth Type</p>
+                </div>
+            </div>
+        </div>
+        <script src="js/game.js"></script>
+    </body>
+</html>
