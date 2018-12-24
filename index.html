@@ -42,13 +42,29 @@
     </head>
     <body>
         <div class="ui-top">
-            <h1>Computed God</h1>
+            <h1 style="text-align: center; padding-left: 0.5em; padding-right: 0.5em; font-weight: 500">Computed God</h1>
             <div class="bg-image button" style="background-image: url(res/planet.svg)">
                 <div class="dropdown" id="chloroplast-dropdown">
-                    <p class="dropdown-title">Chloropleth Type</p>
+                    <p class="dropdown-title">Choropleth Type</p>
                 </div>
             </div>
+            <div class="bg-image button" style="background-image: url(res/settings.svg)">
+                <div class="dropdown" id="chloroplast-dropdown">
+                    <p class="dropdown-title">Settings</p>
+                    <p class="dropdown-choice selected" id="tbc">Bezier Curves</p>
+                </div>
+            </div>
+            <h1 id="command" style="text-align: center;">Select A Country</h1>
         </div>
+
+        <div class="input-close">X</div>
+
+        <div class="country-panel input-alert hidden">
+            <h1 class="name" style="grid-area: a">name</h1>
+            <div style="grid-area: c">some text</div>
+            <div style="grid-area: b" class="svg"></div>
+        </div>
+
         <script src="js/game.js"></script>
     </body>
 </html>

@@ -9,7 +9,8 @@ Map.maps.push(new Map({
             "name": "Andorra",
             "population": 76965,"gdp": 2858517699.11504,"id": "AND",
             "hdi": null,
-            "alr": 100,"edu": 114.375617980957,"lifeEx": null
+            "alr": 100,"edu": 114.375617980957,"lifeEx": null,
+            "area": 470,"pollution": 0,"growth": 1.87319661596112
         },
         {
             "outlines": [
@@ -34,7 +35,7 @@ Map.maps.push(new Map({
             ],
             "name": "United Arab Emirates",
             "population": 9400145,"gdp": 348743265704.561,"id": "ARE",
-            "hdi": 0.59,"alr": 90.0338516235352,"edu": 110.871620178223,"lifeEx": 77.256
+            "hdi": 0.59,"alr": 90.0338516235352,"edu": 110.871620178223,"lifeEx": 77.256,"area": 83600,"pollution": 100,"growth": 0.790400387794406
         },
         {
             "outlines": [
@@ -44,7 +45,7 @@ Map.maps.push(new Map({
             ],
             "name": "Afghanistan",
             "population": 35530081,"gdp": 19469022207.6852,"id": "AFG",
-            "hdi": 0.25,"alr": 31.7411193847656,"edu": 104.610702514648,"lifeEx": 63.673
+            "hdi": 0.25,"alr": 31.7411193847656,"edu": 104.610702514648,"lifeEx": 63.673,"area": 652860,"pollution": 100,"growth": 2.59554245325748
         },
         {
             "outlines": [
@@ -58,7 +59,7 @@ Map.maps.push(new Map({
             "name": "Antigua and Barbuda",
             "population": 102012,"gdp": 1460144703.7037,"id": "ATG",
             "hdi": null,
-            "alr": 98.9499969482422,"edu": 87.6108474731445,"lifeEx": 76.364
+            "alr": 98.9499969482422,"edu": 87.6108474731445,"lifeEx": 76.364,"area": 440,"pollution": 100,"growth": 3.33704921545255
         },
         {
             "outlines": [
@@ -83,7 +84,7 @@ Map.maps.push(new Map({
             ],
             "name": "Albania",
             "population": 2873457,"gdp": 11863865978.0942,"id": "ALB",
-            "hdi": 0.59,"alr": 97.2469711303711,"edu": 109.777412414551,"lifeEx": 78.345
+            "hdi": 0.59,"alr": 97.2469711303711,"edu": 109.777412414551,"lifeEx": 78.345,"area": 28750,"pollution": 77.5092414,"growth": 3.84136366608277
         },
         {
             "outlines": [
@@ -99,7 +100,7 @@ Map.maps.push(new Map({
             ],
             "name": "Armenia",
             "population": 2930450,"gdp": 10572298341.5618,"id": "ARM",
-            "hdi": 0.58,"alr": 99.7444076538086,"edu": 94.3443298339844,"lifeEx": 74.618
+            "hdi": 0.58,"alr": 99.7444076538086,"edu": 94.3443298339844,"lifeEx": 74.618,"area": 29740,"pollution": 100,"growth": 7.49999999906528
         },
         {
             "outlines": [
@@ -112,7 +113,7 @@ Map.maps.push(new Map({
             ],
             "name": "Angola",
             "population": 29784193,"gdp": 95335111741.2025,"id": "AGO",
-            "hdi": 0.27,"alr": 66.0301132202148,"edu": 118.651786804199,"lifeEx": 61.547
+            "hdi": 0.27,"alr": 66.0301132202148,"edu": 118.651786804199,"lifeEx": 61.547,"area": 1246700,"pollution": 100,"growth": 0.721699271937197
         },
         {
             "outlines": [
@@ -131,7 +132,7 @@ Map.maps.push(new Map({
             ],
             "name": "Argentina",
             "population": 44271041,"gdp": 545476103427.247,"id": "ARG",
-            "hdi": 0.7,"alr": 98.0899963378906,"edu": 109.926261901855,"lifeEx": 76.577
+            "hdi": 0.7,"alr": 98.0899963378906,"edu": 109.926261901855,"lifeEx": 76.577,"area": 2780400,"pollution": 58.0027894,"growth": 2.86392289725737
         },
         {
             "outlines": [
@@ -144,7 +145,8 @@ Map.maps.push(new Map({
             "hdi": null,
             "alr": null,
             "edu": null,
-            "lifeEx": null
+            "lifeEx": null,
+            "area": 200,"pollution": 0,"growth": -2.61941448382126
         },
         {
             "outlines": [
@@ -155,7 +157,7 @@ Map.maps.push(new Map({
             "name": "Austria",
             "population": 8809212,"gdp": 390799991147.468,"id": "AUT",
             "hdi": 0.79,"alr": null,
-            "edu": 102.264358520508,"lifeEx": 80.890243902439
+            "edu": 102.264358520508,"lifeEx": 80.890243902439,"area": 83879,"pollution": 66.314097,"growth": 3.03527267887569
         },
         {
             "outlines": [
@@ -292,7 +294,7 @@ Map.maps.push(new Map({
             "name": "Australia",
             "population": 24598933,"gdp": 1204616439828.41,"id": "AUS",
             "hdi": 0.89,"alr": null,
-            "edu": 101.340301513672,"lifeEx": 82.5
+            "edu": 101.340301513672,"lifeEx": 82.5,"area": 7741220,"pollution": 0,"growth": 1.95757542160659
         },
         {
             "outlines": [
@@ -303,7 +305,8 @@ Map.maps.push(new Map({
             "name": "Aruba",
             "population": 105264,"gdp": 2584463687.15084,"id": "ABW",
             "hdi": null,
-            "alr": 96.822639465332,"edu": 117.108093261719,"lifeEx": 75.867
+            "alr": 96.822639465332,"edu": 117.108093261719,"lifeEx": 75.867,"area": 180,"pollution": null,
+            "growth": -5.65350208612952
         },
         {
             "outlines": [
@@ -343,7 +346,7 @@ Map.maps.push(new Map({
             ],
             "name": "Azerbaijan",
             "population": 9862429,"gdp": 37847715736.0406,"id": "AZE",
-            "hdi": 0.52,"alr": 99.7900619506836,"edu": 106.431739807129,"lifeEx": 72.026
+            "hdi": 0.52,"alr": 99.7900619506836,"edu": 106.431739807129,"lifeEx": 72.026,"area": 86600,"pollution": 100,"growth": 0.0999998139003679
         },
         {
             "outlines": [
@@ -355,7 +358,7 @@ Map.maps.push(new Map({
             "population": 3507017,"gdp": 16910277133.6463,"id": "BIH",
             "hdi": null,
             "alr": 96.9917678833008,"edu": null,
-            "lifeEx": 76.911
+            "lifeEx": 76.911,"area": 51210,"pollution": 99.9181694,"growth": 3.03138827468106
         },
         {
             "outlines": [
@@ -365,7 +368,7 @@ Map.maps.push(new Map({
             ],
             "name": "Barbados",
             "population": 285719,"gdp": 4529050000,"id": "BRB",
-            "hdi": 0.66,"alr": 99.2680816650391,"edu": 92.5821685791016,"lifeEx": 75.906
+            "hdi": 0.66,"alr": 99.2680816650391,"edu": 92.5821685791016,"lifeEx": 75.906,"area": 430,"pollution": 100,"growth": 1.67106420404612
         },
         {
             "outlines": [
@@ -393,7 +396,7 @@ Map.maps.push(new Map({
             ],
             "name": "Bangladesh",
             "population": 164669751,"gdp": 221415162445.648,"id": "BGD",
-            "hdi": 0.33,"alr": 72.7587203979492,"edu": 118.573509216309,"lifeEx": 72.489
+            "hdi": 0.33,"alr": 72.7587203979492,"edu": 118.573509216309,"lifeEx": 72.489,"area": 147630,"pollution": 100,"growth": 7.28420837706373
         },
         {
             "outlines": [
@@ -404,7 +407,7 @@ Map.maps.push(new Map({
             "name": "Belgium",
             "population": 11372068,"gdp": 467955709817.539,"id": "BEL",
             "hdi": 0.84,"alr": null,
-            "edu": 103.152961730957,"lifeEx": 80.9926829268293
+            "edu": 103.152961730957,"lifeEx": 80.9926829268293,"area": 30530,"pollution": 96.3676844,"growth": 1.72976676241763
         },
         {
             "outlines": [
@@ -414,7 +417,7 @@ Map.maps.push(new Map({
             ],
             "name": "Burkina Faso",
             "population": 19193382,"gdp": 11693235542.0671,"id": "BFA",
-            "hdi": 0.22,"alr": 34.5993995666504,"edu": 91.11083984375,"lifeEx": 60.361
+            "hdi": 0.22,"alr": 34.5993995666504,"edu": 91.11083984375,"lifeEx": 60.361,"area": 274220,"pollution": 100,"growth": 6.74265354235169
         },
         {
             "outlines": [
@@ -424,7 +427,7 @@ Map.maps.push(new Map({
             ],
             "name": "Bulgaria",
             "population": 7075991,"gdp": 53237882472.7108,"id": "BGR",
-            "hdi": 0.59,"alr": 98.3524475097656,"edu": 94.8479232788086,"lifeEx": 74.6146341463415
+            "hdi": 0.59,"alr": 98.3524475097656,"edu": 94.8479232788086,"lifeEx": 74.6146341463415,"area": 111000,"pollution": 99.9810482,"growth": 3.56164285603617
         },
         {
             "outlines": [
@@ -434,7 +437,7 @@ Map.maps.push(new Map({
             ],
             "name": "Bahrain",
             "population": 1492584,"gdp": 32179069148.9362,"id": "BHR",
-            "hdi": 0.57,"alr": 94.5567932128906,"edu": 101.093132019043,"lifeEx": 76.9
+            "hdi": 0.57,"alr": 94.5567932128906,"edu": 101.093132019043,"lifeEx": 76.9,"area": 771,"pollution": 100,"growth": 3.88483053415689
         },
         {
             "outlines": [
@@ -444,7 +447,7 @@ Map.maps.push(new Map({
             ],
             "name": "Burundi",
             "population": 10864245,"gdp": 3007029030.4001,"id": "BDI",
-            "hdi": 0.25,"alr": 61.5697288513184,"edu": 130.915283203125,"lifeEx": 57.481
+            "hdi": 0.25,"alr": 61.5697288513184,"edu": 130.915283203125,"lifeEx": 57.481,"area": 27830,"pollution": 100,"growth": 0.519139010390006
         },
         {
             "outlines": [
@@ -454,7 +457,7 @@ Map.maps.push(new Map({
             ],
             "name": "Benin",
             "population": 11175692,"gdp": 8583031398.21675,"id": "BEN",
-            "hdi": 0.26,"alr": 32.9488182067871,"edu": 132.46826171875,"lifeEx": 60.907
+            "hdi": 0.26,"alr": 32.9488182067871,"edu": 132.46826171875,"lifeEx": 60.907,"area": 114760,"pollution": 100,"growth": 5.58419508102699
         },
         {
             "outlines": [
@@ -482,7 +485,7 @@ Map.maps.push(new Map({
             ],
             "name": "Brunei Darussalam",
             "population": 428697,"gdp": 11400653731.9916,"id": "BRN",
-            "hdi": 0.58,"alr": 96.085563659668,"edu": 106.64013671875,"lifeEx": 77.203
+            "hdi": 0.58,"alr": 96.085563659668,"edu": 106.64013671875,"lifeEx": 77.203,"area": 5770,"pollution": 0,"growth": 1.32875139470671
         },
         {
             "outlines": [
@@ -492,7 +495,7 @@ Map.maps.push(new Map({
             ],
             "name": "Bolivia",
             "population": 11051600,"gdp": 33806395513.7482,"id": "BOL",
-            "hdi": 0.47,"alr": 92.455078125,"edu": 97.701789855957,"lifeEx": 69.125
+            "hdi": 0.47,"alr": 92.455078125,"edu": 97.701789855957,"lifeEx": 69.125,"area": 1098580,"pollution": 99.8106831,"growth": 4.19520701912501
         },
         {
             "outlines": [
@@ -504,7 +507,7 @@ Map.maps.push(new Map({
             "population": 65441,"gdp": 5573710000,"id": "BMU",
             "hdi": null,
             "alr": null,
-            "edu": 90.3485794067383,"lifeEx": 81.2270731707317
+            "edu": 90.3485794067383,"lifeEx": 81.2270731707317,"area": 50,"pollution": 0,"growth": -2.51115443098975
         },
         {
             "outlines": [
@@ -582,7 +585,7 @@ Map.maps.push(new Map({
             ],
             "name": "Brazil",
             "population": 209288278,"gdp": 1796186586414.45,"id": "BRA",
-            "hdi": 0.54,"alr": 91.7294311523438,"edu": 115.340789794922,"lifeEx": 75.509
+            "hdi": 0.54,"alr": 91.7294311523438,"edu": 115.340789794922,"lifeEx": 75.509,"area": 8515770,"pollution": 42.7041015,"growth": 0.976085681375949
         },
         {
             "outlines": [
@@ -635,7 +638,7 @@ Map.maps.push(new Map({
             "name": "Bahamas",
             "population": 395361,"gdp": 11261800000,"id": "BHS",
             "hdi": 0.58,"alr": null,
-            "edu": 95.3439865112305,"lifeEx": 75.675
+            "edu": 95.3439865112305,"lifeEx": 75.675,"area": 13880,"pollution": 7.9542922,"growth": 1.43719133908083
         },
         {
             "outlines": [
@@ -646,7 +649,7 @@ Map.maps.push(new Map({
             "name": "Bhutan",
             "population": 807610,"gdp": 2212638830.39439,"id": "BTN",
             "hdi": null,
-            "alr": 57.0335998535156,"edu": 94.9757766723633,"lifeEx": 70.197
+            "alr": 57.0335998535156,"edu": 94.9757766723633,"lifeEx": 70.197,"area": 38394,"pollution": 99.4187824,"growth": 6.81877770547632
         },
         {
             "outlines": [
@@ -671,7 +674,7 @@ Map.maps.push(new Map({
             ],
             "name": "Botswana",
             "population": 2291661,"gdp": 15581137273.7728,"id": "BWA",
-            "hdi": 0.4,"alr": 81.1887130737305,"edu": 105.362121582031,"lifeEx": 66.797
+            "hdi": 0.4,"alr": 81.1887130737305,"edu": 105.362121582031,"lifeEx": 66.797,"area": 581730,"pollution": 99.366788,"growth": 2.3591970823241
         },
         {
             "outlines": [
@@ -681,7 +684,7 @@ Map.maps.push(new Map({
             ],
             "name": "Belarus",
             "population": 9507875,"gdp": 47407217531.162,"id": "BLR",
-            "hdi": 0.67,"alr": 99.617057800293,"edu": 101.890426635742,"lifeEx": 73.8268292682927
+            "hdi": 0.67,"alr": 99.617057800293,"edu": 101.890426635742,"lifeEx": 73.8268292682927,"area": 207600,"pollution": 98.9902611,"growth": 2.42190626735157
         },
         {
             "outlines": [
@@ -697,7 +700,7 @@ Map.maps.push(new Map({
             ],
             "name": "Belize",
             "population": 374681,"gdp": 1741100000,"id": "BLZ",
-            "hdi": 0.43,"alr": 70.2984237670898,"edu": 114.692413330078,"lifeEx": 70.384
+            "hdi": 0.43,"alr": 70.2984237670898,"edu": 114.692413330078,"lifeEx": 70.384,"area": 22970,"pollution": 100,"growth": 0.883603673387739
         },
         {
             "outlines": [
@@ -1161,7 +1164,7 @@ Map.maps.push(new Map({
             "name": "Canada",
             "population": 36708083,"gdp": 1529760492201.35,"id": "CAN",
             "hdi": 0.88,"alr": null,
-            "edu": 101.433990478516,"lifeEx": 82.300512195122
+            "edu": 101.433990478516,"lifeEx": 82.300512195122,"area": 9984670,"pollution": 0,"growth": 3.04735068075965
         },
         {
             "outlines": [
@@ -1189,7 +1192,7 @@ Map.maps.push(new Map({
             ],
             "name": "Democratic Republic of Congo",
             "population": 81339988,"gdp": 31930856401.9163,"id": "COD",
-            "hdi": 0.22,"alr": 77.0426788330078,"edu": 108.04337310791,"lifeEx": 59.621
+            "hdi": 0.22,"alr": 77.0426788330078,"edu": 108.04337310791,"lifeEx": 59.621,"area": 2344860,"pollution": 100,"growth": 3.70085074967523
         },
         {
             "outlines": [
@@ -1199,7 +1202,7 @@ Map.maps.push(new Map({
             ],
             "name": "Central African Republic",
             "population": 4659080,"gdp": 1756124677.19671,"id": "CAF",
-            "hdi": 0.16,"alr": 36.7526092529297,"edu": 105.667556762695,"lifeEx": 52.171
+            "hdi": 0.16,"alr": 36.7526092529297,"edu": 105.667556762695,"lifeEx": 52.171,"area": 622980,"pollution": 100,"growth": 4.29993805303965
         },
         {
             "outlines": [
@@ -1209,7 +1212,7 @@ Map.maps.push(new Map({
             ],
             "name": "Republic of Congo",
             "population": 5260750,"gdp": 7833508878.9666,"id": "COG",
-            "hdi": 0.34,"alr": 79.3111724853516,"edu": 104.163459777832,"lifeEx": 64.625
+            "hdi": 0.34,"alr": 79.3111724853516,"edu": 104.163459777832,"lifeEx": 64.625,"area": 342000,"pollution": 100,"growth": -4.58908357790095
         },
         {
             "outlines": [
@@ -1220,7 +1223,7 @@ Map.maps.push(new Map({
             "name": "Switzerland",
             "population": 8466017,"gdp": 668851296244.236,"id": "CHE",
             "hdi": 0.8,"alr": null,
-            "edu": 104.406616210938,"lifeEx": 82.8975609756098
+            "edu": 104.406616210938,"lifeEx": 82.8975609756098,"area": 41290,"pollution": 0.7442379,"growth": 1.08679221938421
         },
         {
             "outlines": [
@@ -1233,7 +1236,7 @@ Map.maps.push(new Map({
             ],
             "name": "Côte d'Ivoire",
             "population": 24294750,"gdp": 36372613022.942,"id": "CIV",
-            "hdi": 0.22,"alr": 43.9084205627441,"edu": 96.7121200561523,"lifeEx": 53.582
+            "hdi": 0.22,"alr": 43.9084205627441,"edu": 96.7121200561523,"lifeEx": 53.582,"area": 322460,"pollution": 100,"growth": 7.79700562748845
         },
         {
             "outlines": [
@@ -1348,7 +1351,7 @@ Map.maps.push(new Map({
             ],
             "name": "Chile",
             "population": 18054726,"gdp": 247027912574.35,"id": "CHL",
-            "hdi": 0.74,"alr": 96.2670593261719,"edu": 99.7986297607422,"lifeEx": 79.522
+            "hdi": 0.74,"alr": 96.2670593261719,"edu": 99.7986297607422,"lifeEx": 79.522,"area": 756096,"pollution": 93.9992692,"growth": 1.48990600446166
         },
         {
             "outlines": [
@@ -1358,7 +1361,7 @@ Map.maps.push(new Map({
             ],
             "name": "Cameroon",
             "population": 24053727,"gdp": 32217497470.489,"id": "CMR",
-            "hdi": 0.28,"alr": 71.2905120849609,"edu": 119.155067443848,"lifeEx": 58.073
+            "hdi": 0.28,"alr": 71.2905120849609,"edu": 119.155067443848,"lifeEx": 58.073,"area": 475440,"pollution": 100,"growth": 3.17708470588063
         },
         {
             "outlines": [
@@ -1404,7 +1407,7 @@ Map.maps.push(new Map({
             ],
             "name": "China",
             "population": 1386395000,"gdp": 11199145157649.2,"id": "CHN",
-            "hdi": 0.54,"alr": 95.1244812011719,"edu": 100.853813171387,"lifeEx": 76.252
+            "hdi": 0.54,"alr": 95.1244812011719,"edu": 100.853813171387,"lifeEx": 76.252,"area": 9562911,"pollution": 99.9978834,"growth": 6.90000000000013
         },
         {
             "outlines": [
@@ -1417,7 +1420,7 @@ Map.maps.push(new Map({
             ],
             "name": "Colombia",
             "population": 49065615,"gdp": 282462551366.878,"id": "COL",
-            "hdi": 0.55,"alr": 94.2450485229492,"edu": 113.988166809082,"lifeEx": 74.381
+            "hdi": 0.55,"alr": 94.2450485229492,"edu": 113.988166809082,"lifeEx": 74.381,"area": 1141749,"pollution": 82.7611011,"growth": 1.76807177799586
         },
         {
             "outlines": [
@@ -1427,7 +1430,7 @@ Map.maps.push(new Map({
             ],
             "name": "Costa Rica",
             "population": 4905769,"gdp": 57435507212.256,"id": "CRI",
-            "hdi": 0.67,"alr": 97.4065780639648,"edu": 109.969100952148,"lifeEx": 79.831
+            "hdi": 0.67,"alr": 97.4065780639648,"edu": 109.969100952148,"lifeEx": 79.831,"area": 51100,"pollution": 97.2983925,"growth": 3.19180372438194
         },
         {
             "outlines": [
@@ -1455,7 +1458,7 @@ Map.maps.push(new Map({
             ],
             "name": "Cuba",
             "population": 11484636,"gdp": 87132800000,"id": "CUB",
-            "hdi": 0.64,"alr": 99.7525329589844,"edu": 100.944152832031,"lifeEx": 79.742
+            "hdi": 0.64,"alr": 99.7525329589844,"edu": 100.944152832031,"lifeEx": 79.742,"area": 109880,"pollution": 100,"growth": 4.4383335888395
         },
         {
             "outlines": [
@@ -1486,7 +1489,7 @@ Map.maps.push(new Map({
             ],
             "name": "Cape Verde",
             "population": 546388,"gdp": 1617467435.77007,"id": "CPV",
-            "hdi": 0.46,"alr": 86.7902908325195,"edu": 96.6901168823242,"lifeEx": 72.798
+            "hdi": 0.46,"alr": 86.7902908325195,"edu": 96.6901168823242,"lifeEx": 72.798,"area": 4030,"pollution": 100,"growth": 3.89133523258904
         },
         {
             "outlines": [
@@ -1525,7 +1528,7 @@ Map.maps.push(new Map({
             ],
             "name": "Cyprus",
             "population": 1179551,"gdp": 20047013274.3363,"id": "CYP",
-            "hdi": 0.66,"alr": 98.6784286499023,"edu": 99.3001174926758,"lifeEx": 80.508
+            "hdi": 0.66,"alr": 98.6784286499023,"edu": 99.3001174926758,"lifeEx": 80.508,"area": 9250,"pollution": 100,"growth": 3.87975476788766
         },
         {
             "outlines": [
@@ -1536,7 +1539,7 @@ Map.maps.push(new Map({
             "name": "Czech Republic",
             "population": 10591323,"gdp": 195305084919.138,"id": "CZE",
             "hdi": 0.68,"alr": null,
-            "edu": 99.4979782104492,"lifeEx": 78.3317073170732
+            "edu": 99.4979782104492,"lifeEx": 78.3317073170732,"area": 78870,"pollution": 98.8198926,"growth": 4.28907894123351
         },
         {
             "outlines": [
@@ -1562,7 +1565,7 @@ Map.maps.push(new Map({
             "name": "Germany",
             "population": 82695000,"gdp": 3477796274496.8,"id": "DEU",
             "hdi": 0.8,"alr": null,
-            "edu": 102.389053344727,"lifeEx": 80.6414634146341
+            "edu": 102.389053344727,"lifeEx": 80.6414634146341,"area": 357380,"pollution": 34.8884946,"growth": 2.2228247553612
         },
         {
             "outlines": [
@@ -1573,7 +1576,7 @@ Map.maps.push(new Map({
             "name": "Djibouti",
             "population": 956985,"gdp": 1727000000,"id": "DJI",
             "hdi": 0.26,"alr": null,
-            "edu": 63.9010581970215,"lifeEx": 62.465
+            "edu": 63.9010581970215,"lifeEx": 62.465,"area": 23200,"pollution": 100,"growth": 4.09026362770027
         },
         {
             "outlines": [
@@ -1617,7 +1620,7 @@ Map.maps.push(new Map({
             "name": "Denmark",
             "population": 5769603,"gdp": 306899653409.601,"id": "DNK",
             "hdi": 0.83,"alr": null,
-            "edu": 101.804832458496,"lifeEx": 80.7048780487805
+            "edu": 101.804832458496,"lifeEx": 80.7048780487805,"area": 42922,"pollution": 0,"growth": 2.24013892207479
         },
         {
             "outlines": [
@@ -1629,7 +1632,7 @@ Map.maps.push(new Map({
             "population": 73925,"gdp": 581484031.851852,"id": "DMA",
             "hdi": null,
             "alr": null,
-            "edu": 112.333183288574,"lifeEx": 76.5975609756098
+            "edu": 112.333183288574,"lifeEx": 76.5975609756098,"area": 750,"pollution": 100,"growth": -4.21352941714788
         },
         {
             "outlines": [
@@ -1639,7 +1642,7 @@ Map.maps.push(new Map({
             ],
             "name": "Dominican Republic",
             "population": 10766998,"gdp": 71583553487.5646,"id": "DOM",
-            "hdi": 0.49,"alr": 91.9912109375,"edu": 101.753852844238,"lifeEx": 73.861
+            "hdi": 0.49,"alr": 91.9912109375,"edu": 101.753852844238,"lifeEx": 73.861,"area": 48670,"pollution": 100,"growth": 4.55181513818401
         },
         {
             "outlines": [
@@ -1649,7 +1652,7 @@ Map.maps.push(new Map({
             ],
             "name": "Algeria",
             "population": 41318142,"gdp": 159049096745.249,"id": "DZA",
-            "hdi": 0.45,"alr": 75.1360473632813,"edu": 113.646507263184,"lifeEx": 76.078
+            "hdi": 0.45,"alr": 75.1360473632813,"edu": 113.646507263184,"lifeEx": 76.078,"area": 2381740,"pollution": 100,"growth": 1.70000000003184
         },
         {
             "outlines": [
@@ -1683,7 +1686,7 @@ Map.maps.push(new Map({
             ],
             "name": "Ecuador",
             "population": 16624858,"gdp": 98613972000,"id": "ECU",
-            "hdi": 0.55,"alr": 94.350227355957,"edu": 104.176086425781,"lifeEx": 76.327
+            "hdi": 0.55,"alr": 94.350227355957,"edu": 104.176086425781,"lifeEx": 76.327,"area": 256370,"pollution": 45.623427,"growth": 2.99815293400643
         },
         {
             "outlines": [
@@ -1693,7 +1696,7 @@ Map.maps.push(new Map({
             ],
             "name": "Egypt",
             "population": 97553151,"gdp": 332791045963.807,"id": "EGY",
-            "hdi": 0.41,"alr": 75.0607299804688,"edu": 103.624519348145,"lifeEx": 71.484
+            "hdi": 0.41,"alr": 75.0607299804688,"edu": 103.624519348145,"lifeEx": 71.484,"area": 1001450,"pollution": 100,"growth": 4.18122099994787
         },
         {
             "outlines": [
@@ -1712,7 +1715,7 @@ Map.maps.push(new Map({
             ],
             "name": "Estonia",
             "population": 1315480,"gdp": 23337907618.5174,"id": "EST",
-            "hdi": 0.73,"alr": 99.8857879638672,"edu": 96.9854278564453,"lifeEx": 77.7365853658537
+            "hdi": 0.73,"alr": 99.8857879638672,"edu": 96.9854278564453,"lifeEx": 77.7365853658537,"area": 45230,"pollution": 0,"growth": 4.85413682907068
         },
         {
             "outlines": [
@@ -1743,7 +1746,7 @@ Map.maps.push(new Map({
             ],
             "name": "Eritrea",
             "population": 4474690,"gdp": 2607739837.39837,"id": "ERI",
-            "hdi": 0.26,"alr": 64.662971496582,"edu": 54.0753402709961,"lifeEx": 65.092
+            "hdi": 0.26,"alr": 64.662971496582,"edu": 54.0753402709961,"lifeEx": 65.092,"area": 117600,"pollution": 100,"growth": 8.67979993646826
         },
         {
             "outlines": [
@@ -1786,7 +1789,7 @@ Map.maps.push(new Map({
             ],
             "name": "Spain",
             "population": 46572028,"gdp": 1237255019653.86,"id": "ESP",
-            "hdi": 0.85,"alr": 98.2505111694336,"edu": 103.871170043945,"lifeEx": 82.8317073170732
+            "hdi": 0.85,"alr": 98.2505111694336,"edu": 103.871170043945,"lifeEx": 82.8317073170732,"area": 505940,"pollution": 2.3055093,"growth": 3.05171961619506
         },
         {
             "outlines": [
@@ -1796,7 +1799,7 @@ Map.maps.push(new Map({
             ],
             "name": "Ethiopia",
             "population": 104957438,"gdp": 72374224249.3997,"id": "ETH",
-            "hdi": 0.26,"alr": 38.995979309082,"edu": 101.944229125977,"lifeEx": 65.475
+            "hdi": 0.26,"alr": 38.995979309082,"edu": 101.944229125977,"lifeEx": 65.475,"area": 1104300,"pollution": 100,"growth": 10.245810850259
         },
         {
             "outlines": [
@@ -1828,7 +1831,7 @@ Map.maps.push(new Map({
             "name": "Finland",
             "population": 5511303,"gdp": 238502900311.9,"id": "FIN",
             "hdi": 0.84,"alr": null,
-            "edu": 100.421920776367,"lifeEx": 81.7804878048781
+            "edu": 100.421920776367,"lifeEx": 81.7804878048781,"area": 338420,"pollution": 0,"growth": 2.63425474595638
         },
         {
             "outlines": [
@@ -1897,7 +1900,7 @@ Map.maps.push(new Map({
             "population": 905502,"gdp": 4703632978.46947,"id": "FJI",
             "hdi": null,
             "alr": null,
-            "edu": 105.545852661133,"lifeEx": 70.269
+            "edu": 105.545852661133,"lifeEx": 70.269,"area": 18270,"pollution": 0,"growth": 3.80000008845506
         },
         {
             "outlines": [
@@ -1951,7 +1954,7 @@ Map.maps.push(new Map({
             "population": 105544,"gdp": 329895600,"id": "FSM",
             "hdi": null,
             "alr": null,
-            "edu": 95.5283966064453,"lifeEx": 69.195
+            "edu": 95.5283966064453,"lifeEx": 69.195,"area": 700,"pollution": 0,"growth": 1.99999999999999
         },
         {
             "outlines": [
@@ -1976,7 +1979,8 @@ Map.maps.push(new Map({
             "hdi": null,
             "alr": null,
             "edu": null,
-            "lifeEx": 82.2414634146342
+            "lifeEx": 82.2414634146342,"area": 1396,"pollution": null,
+            "growth": null
         },
         {
             "outlines": [
@@ -1993,7 +1997,7 @@ Map.maps.push(new Map({
             "name": "France",
             "population": 67118648,"gdp": 2465453975282.24,"id": "FRA",
             "hdi": 0.82,"alr": null,
-            "edu": 107.361419677734,"lifeEx": 82.2731707317073
+            "edu": 107.361419677734,"lifeEx": 82.2731707317073,"area": 549087,"pollution": 8.9873436,"growth": 1.81940018089266
         },
         {
             "outlines": [
@@ -2003,7 +2007,7 @@ Map.maps.push(new Map({
             ],
             "name": "Gabon",
             "population": 2025137,"gdp": 14213558130.1817,"id": "GAB",
-            "hdi": 0.4,"alr": 82.2837982177734,"edu": 138.723526000977,"lifeEx": 66.105
+            "hdi": 0.4,"alr": 82.2837982177734,"edu": 138.723526000977,"lifeEx": 66.105,"area": 267670,"pollution": 100,"growth": 1.10471933167229
         },
         {
             "outlines": [
@@ -2080,7 +2084,7 @@ Map.maps.push(new Map({
             "name": "United Kingdom",
             "population": 66022273,"gdp": 2647898654635.24,"id": "GBR",
             "hdi": 0.76,"alr": null,
-            "edu": 101.909240722656,"lifeEx": 80.9560975609756
+            "edu": 101.909240722656,"lifeEx": 80.9560975609756,"area": 243610,"pollution": 4.6411527,"growth": 1.787150984874
         },
         {
             "outlines": [
@@ -2090,7 +2094,7 @@ Map.maps.push(new Map({
             ],
             "name": "Georgia",
             "population": 3717100,"gdp": 14378016729.1587,"id": "GEO",
-            "hdi": 0.58,"alr": 99.5861892700195,"edu": 102.597618103027,"lifeEx": 73.261
+            "hdi": 0.58,"alr": 99.5861892700195,"edu": 102.597618103027,"lifeEx": 73.261,"area": 69700,"pollution": 90.1587044,"growth": 4.98609475963418
         },
         {
             "outlines": [
@@ -2101,7 +2105,7 @@ Map.maps.push(new Map({
             "name": "Grenada",
             "population": 107825,"gdp": 1056188592.59259,"id": "GRD",
             "hdi": null,
-            "alr": 97.7944717407227,"edu": 101.390701293945,"lifeEx": 73.659
+            "alr": 97.7944717407227,"edu": 101.390701293945,"lifeEx": 73.659,"area": 340,"pollution": 100,"growth": 3.73032073171937
         },
         {
             "outlines": [
@@ -2141,7 +2145,7 @@ Map.maps.push(new Map({
             ],
             "name": "Ghana",
             "population": 28833629,"gdp": 42689783733.873,"id": "GHA",
-            "hdi": 0.33,"alr": 71.4970703125,"edu": 104.775161743164,"lifeEx": 62.742
+            "hdi": 0.33,"alr": 71.4970703125,"edu": 104.775161743164,"lifeEx": 62.742,"area": 238540,"pollution": 100,"growth": 8.50715621899067
         },
         {
             "outlines": [
@@ -2155,7 +2159,9 @@ Map.maps.push(new Map({
             "hdi": null,
             "alr": null,
             "edu": null,
-            "lifeEx": null
+            "lifeEx": null,
+            "area": 10,"pollution": null,
+            "growth": null
         },
         {
             "outlines": [
@@ -2215,7 +2221,7 @@ Map.maps.push(new Map({
             "population": 56171,"gdp": 2220380802.33059,"id": "GRL",
             "hdi": null,
             "alr": 100,"edu": null,
-            "lifeEx": 71.8304878048781
+            "lifeEx": 71.8304878048781,"area": 410450,"pollution": 0,"growth": 7.66299889492275
         },
         {
             "outlines": [
@@ -2225,7 +2231,7 @@ Map.maps.push(new Map({
             ],
             "name": "Gambia",
             "population": 2100568,"gdp": 964599178.129102,"id": "GMB",
-            "hdi": 0.25,"alr": 41.9500503540039,"edu": 97.115348815918,"lifeEx": 61.193
+            "hdi": 0.25,"alr": 41.9500503540039,"edu": 97.115348815918,"lifeEx": 61.193,"area": 11300,"pollution": 100,"growth": 3.50000013187031
         },
         {
             "outlines": [
@@ -2235,7 +2241,7 @@ Map.maps.push(new Map({
             ],
             "name": "Guinea",
             "population": 12717176,"gdp": 8200248003.02206,"id": "GIN",
-            "hdi": 0.19,"alr": 32.0038604736328,"edu": 93.9271011352539,"lifeEx": 60.015
+            "hdi": 0.19,"alr": 32.0038604736328,"edu": 93.9271011352539,"lifeEx": 60.015,"area": 245860,"pollution": 100,"growth": 8.24984422988283
         },
         {
             "outlines": [
@@ -2283,7 +2289,7 @@ Map.maps.push(new Map({
             ],
             "name": "Equatorial Guinea",
             "population": 1267689,"gdp": 10684804794.0361,"id": "GNQ",
-            "hdi": 0.4,"alr": 88.3082962036133,"edu": 61.5776100158691,"lifeEx": 57.681
+            "hdi": 0.4,"alr": 88.3082962036133,"edu": 61.5776100158691,"lifeEx": 57.681,"area": 28050,"pollution": 100,"growth": -3.22022814221914
         },
         {
             "outlines": [
@@ -2410,7 +2416,7 @@ Map.maps.push(new Map({
             ],
             "name": "Greece",
             "population": 10760421,"gdp": 192690813126.86,"id": "GRC",
-            "hdi": 0.75,"alr": 97.1287536621094,"edu": 95.0495376586914,"lifeEx": 81.0365853658537
+            "hdi": 0.75,"alr": 97.1287536621094,"edu": 95.0495376586914,"lifeEx": 81.0365853658537,"area": 131960,"pollution": 0.1102512,"growth": 1.35132838862349
         },
         {
             "outlines": [
@@ -2438,7 +2444,7 @@ Map.maps.push(new Map({
             ],
             "name": "Guatemala",
             "population": 16913503,"gdp": 68763255963.8943,"id": "GTM",
-            "hdi": 0.41,"alr": 81.2858963012695,"edu": 100.816917419434,"lifeEx": 73.409
+            "hdi": 0.41,"alr": 81.2858963012695,"edu": 100.816917419434,"lifeEx": 73.409,"area": 108890,"pollution": 100,"growth": 2.76032947271952
         },
         {
             "outlines": [
@@ -2451,7 +2457,7 @@ Map.maps.push(new Map({
             "hdi": null,
             "alr": null,
             "edu": null,
-            "lifeEx": 79.575
+            "lifeEx": 79.575,"area": 540,"pollution": 0,"growth": 0.347356233114638
         },
         {
             "outlines": [
@@ -2479,7 +2485,7 @@ Map.maps.push(new Map({
             ],
             "name": "Guinea-Bissau",
             "population": 1861283,"gdp": 1164944509.94419,"id": "GNB",
-            "hdi": 0.23,"alr": 45.5811614990234,"edu": 118.080169677734,"lifeEx": 57.403
+            "hdi": 0.23,"alr": 45.5811614990234,"edu": 118.080169677734,"lifeEx": 57.403,"area": 36130,"pollution": 100,"growth": 5.91897567049733
         },
         {
             "outlines": [
@@ -2489,7 +2495,7 @@ Map.maps.push(new Map({
             ],
             "name": "Guyana",
             "population": 777859,"gdp": 3502397094.43099,"id": "GUY",
-            "hdi": 0.39,"alr": 85.6397323608398,"edu": 96.0839462280273,"lifeEx": 66.65
+            "hdi": 0.39,"alr": 85.6397323608398,"edu": 96.0839462280273,"lifeEx": 66.65,"area": 214970,"pollution": 98.2260379,"growth": 2.92466831277953
         },
         {
             "outlines": [
@@ -2506,7 +2512,8 @@ Map.maps.push(new Map({
             "name": "Hong Kong",
             "population": 7391700,"gdp": 320914302646.157,"id": "HKG",
             "hdi": 0.8,"alr": null,
-            "edu": 107.186378479004,"lifeEx": 84.2268292682927
+            "edu": 107.186378479004,"lifeEx": 84.2268292682927,"area": 1105,"pollution": null,
+            "growth": 3.79134855964568
         },
         {
             "outlines": [
@@ -2537,7 +2544,7 @@ Map.maps.push(new Map({
             ],
             "name": "Honduras",
             "population": 9265067,"gdp": 21516938909.5686,"id": "HND",
-            "hdi": 0.43,"alr": 88.9874801635742,"edu": 96.1845092773438,"lifeEx": 73.575
+            "hdi": 0.43,"alr": 88.9874801635742,"edu": 96.1845092773438,"lifeEx": 73.575,"area": 112490,"pollution": 100,"growth": 4.78529790989262
         },
         {
             "outlines": [
@@ -2583,7 +2590,7 @@ Map.maps.push(new Map({
             ],
             "name": "Croatia",
             "population": 4125700,"gdp": 50714957390.5378,"id": "HRV",
-            "hdi": 0.63,"alr": 99.125358581543,"edu": 95.3957138061523,"lifeEx": 78.0219512195122
+            "hdi": 0.63,"alr": 99.125358581543,"edu": 95.3957138061523,"lifeEx": 78.0219512195122,"area": 56590,"pollution": 93.3705212,"growth": 2.77828266103268
         },
         {
             "outlines": [
@@ -2599,7 +2606,7 @@ Map.maps.push(new Map({
             ],
             "name": "Haiti",
             "population": 10981229,"gdp": 8022638721.92013,"id": "HTI",
-            "hdi": 0.25,"alr": 48.6850204467773,"edu": 111.878341674805,"lifeEx": 63.33
+            "hdi": 0.25,"alr": 48.6850204467773,"edu": 111.878341674805,"lifeEx": 63.33,"area": 27750,"pollution": 100,"growth": 1.17327950545638
         },
         {
             "outlines": [
@@ -2609,7 +2616,7 @@ Map.maps.push(new Map({
             ],
             "name": "Hungary",
             "population": 9781127,"gdp": 125816640420.569,"id": "HUN",
-            "hdi": 0.62,"alr": 98.8582916259766,"edu": 101.870918273926,"lifeEx": 75.5682926829269
+            "hdi": 0.62,"alr": 98.8582916259766,"edu": 101.870918273926,"lifeEx": 75.5682926829269,"area": 93030,"pollution": 100,"growth": 3.98871036965851
         },
         {
             "outlines": [
@@ -3015,7 +3022,7 @@ Map.maps.push(new Map({
             ],
             "name": "Indonesia",
             "population": 263991379,"gdp": 932259177765.307,"id": "IDN",
-            "hdi": 0.47,"alr": 95.3769683837891,"edu": 103.455039978027,"lifeEx": 69.191
+            "hdi": 0.47,"alr": 95.3769683837891,"edu": 103.455039978027,"lifeEx": 69.191,"area": 1910931,"pollution": 79.5837265,"growth": 5.06768027408975
         },
         {
             "outlines": [
@@ -3029,7 +3036,7 @@ Map.maps.push(new Map({
             "name": "Ireland",
             "population": 4813608,"gdp": 304819020500.641,"id": "IRL",
             "hdi": 0.85,"alr": null,
-            "edu": 100.764488220215,"lifeEx": 81.6073170731707
+            "edu": 100.764488220215,"lifeEx": 81.6073170731707,"area": 70280,"pollution": 0,"growth": 7.80238160809412
         },
         {
             "outlines": [
@@ -3039,7 +3046,7 @@ Map.maps.push(new Map({
             ],
             "name": "Israel",
             "population": 8712400,"gdp": 317744784695.1,"id": "ISR",
-            "hdi": 0.81,"alr": 91.7514114379883,"edu": 103.629051208496,"lifeEx": 82.4073170731707
+            "hdi": 0.81,"alr": 91.7514114379883,"edu": 103.629051208496,"lifeEx": 82.4073170731707,"area": 22070,"pollution": 97.5350852,"growth": 3.3315627940097
         },
         {
             "outlines": [
@@ -3052,7 +3059,8 @@ Map.maps.push(new Map({
             "hdi": null,
             "alr": null,
             "edu": null,
-            "lifeEx": 77.9658536585366
+            "lifeEx": 77.9658536585366,"area": 570,"pollution": null,
+            "growth": -3.39999999999999
         },
         {
             "outlines": [
@@ -3101,7 +3109,7 @@ Map.maps.push(new Map({
             ],
             "name": "India",
             "population": 1339180127,"gdp": 2263792499341.01,"id": "IND",
-            "hdi": 0.38,"alr": 69.3025588989258,"edu": 114.525283813477,"lifeEx": 68.56
+            "hdi": 0.38,"alr": 69.3025588989258,"edu": 114.525283813477,"lifeEx": 68.56,"area": 3287259,"pollution": 99.9709029,"growth": 6.62422711604482
         },
         {
             "outlines": [
@@ -3126,7 +3134,7 @@ Map.maps.push(new Map({
             ],
             "name": "Iraq",
             "population": 38274618,"gdp": 171489001692.047,"id": "IRQ",
-            "hdi": 0.35,"alr": 43.6832809448242,"edu": 108.13395690918,"lifeEx": 69.862
+            "hdi": 0.35,"alr": 43.6832809448242,"edu": 108.13395690918,"lifeEx": 69.862,"area": 435050,"pollution": 100,"growth": -0.780088427570291
         },
         {
             "outlines": [
@@ -3139,7 +3147,7 @@ Map.maps.push(new Map({
             ],
             "name": "Iran",
             "population": 81162788,"gdp": 418976679728.567,"id": "IRN",
-            "hdi": 0.51,"alr": 84.7052383422852,"edu": 108.60578918457,"lifeEx": 75.953
+            "hdi": 0.51,"alr": 84.7052383422852,"edu": 108.60578918457,"lifeEx": 75.953,"area": 1745150,"pollution": 100,"growth": 4.30001508079721
         },
         {
             "outlines": [
@@ -3150,7 +3158,7 @@ Map.maps.push(new Map({
             "name": "Iceland",
             "population": 341284,"gdp": 20047413006.3471,"id": "ISL",
             "hdi": 0.9,"alr": null,
-            "edu": 98.6254272460938,"lifeEx": 82.4682926829268
+            "edu": 98.6254272460938,"lifeEx": 82.4682926829268,"area": 103000,"pollution": 0,"growth": 3.64222680238824
         },
         {
             "outlines": [
@@ -3187,7 +3195,7 @@ Map.maps.push(new Map({
             ],
             "name": "Italy",
             "population": 60551416,"gdp": 1858913163927.72,"id": "ITA",
-            "hdi": 0.81,"alr": 98.8482818603516,"edu": 101.179397583008,"lifeEx": 82.5439024390244
+            "hdi": 0.81,"alr": 98.8482818603516,"edu": 101.179397583008,"lifeEx": 82.5439024390244,"area": 301340,"pollution": 57.5711253,"growth": 1.50229137197273
         },
         {
             "outlines": [
@@ -3212,7 +3220,7 @@ Map.maps.push(new Map({
             ],
             "name": "Jamaica",
             "population": 2890299,"gdp": 14056908749.3505,"id": "JAM",
-            "hdi": 0.48,"alr": 79.9201202392578,"edu": 96.2858810424805,"lifeEx": 75.97
+            "hdi": 0.48,"alr": 79.9201202392578,"edu": 96.2858810424805,"lifeEx": 75.97,"area": 10990,"pollution": 92.341111,"growth": 0.481488515870467
         },
         {
             "outlines": [
@@ -3222,7 +3230,7 @@ Map.maps.push(new Map({
             ],
             "name": "Jordan",
             "population": 9702353,"gdp": 38654727746.4789,"id": "JOR",
-            "hdi": 0.52,"alr": 97.8903198242188,"edu": 99.5025405883789,"lifeEx": 74.329
+            "hdi": 0.52,"alr": 97.8903198242188,"edu": 99.5025405883789,"lifeEx": 74.329,"area": 89320,"pollution": 100,"growth": 1.97002375051609
         },
         {
             "outlines": [
@@ -3332,7 +3340,7 @@ Map.maps.push(new Map({
             "name": "Japan",
             "population": 126785797,"gdp": 4940158776617.16,"id": "JPN",
             "hdi": 0.83,"alr": null,
-            "edu": 98.7999420166016,"lifeEx": 83.9848780487805
+            "edu": 98.7999420166016,"lifeEx": 83.9848780487805,"area": 377962,"pollution": 32.4779179,"growth": 1.71258113108748
         },
         {
             "outlines": [
@@ -3359,7 +3367,7 @@ Map.maps.push(new Map({
             ],
             "name": "Kenya",
             "population": 49699862,"gdp": 70529014778.3251,"id": "KEN",
-            "hdi": 0.31,"alr": 78.733039855957,"edu": 105.306991577148,"lifeEx": 67.032
+            "hdi": 0.31,"alr": 78.733039855957,"edu": 105.306991577148,"lifeEx": 67.032,"area": 580370,"pollution": 64.7523594,"growth": 4.8854444803255
         },
         {
             "outlines": [
@@ -3378,7 +3386,7 @@ Map.maps.push(new Map({
             ],
             "name": "Kyrgyzstan",
             "population": 6201500,"gdp": 6551287937.62632,"id": "KGZ",
-            "hdi": 0.49,"alr": 99.2434310913086,"edu": 106.396919250488,"lifeEx": 70.9512195121951
+            "hdi": 0.49,"alr": 99.2434310913086,"edu": 106.396919250488,"lifeEx": 70.9512195121951,"area": 199949,"pollution": 71.6155494,"growth": 4.58363839829128
         },
         {
             "outlines": [
@@ -3394,7 +3402,7 @@ Map.maps.push(new Map({
             ],
             "name": "Cambodia",
             "population": 16005373,"gdp": 20016747754.0192,"id": "KHM",
-            "hdi": 0.37,"alr": 73.900032043457,"edu": 110.21452331543,"lifeEx": 68.981
+            "hdi": 0.37,"alr": 73.900032043457,"edu": 110.21452331543,"lifeEx": 68.981,"area": 181040,"pollution": 100,"growth": 6.81472361786084
         },
         {
             "outlines": [
@@ -3460,7 +3468,7 @@ Map.maps.push(new Map({
             "population": 116398,"gdp": 181551484.895269,"id": "KIR",
             "hdi": null,
             "alr": null,
-            "edu": 105.014312744141,"lifeEx": 66.317
+            "edu": 105.014312744141,"lifeEx": 66.317,"area": 810,"pollution": 0,"growth": 3.10280700718641
         },
         {
             "outlines": [
@@ -3476,7 +3484,7 @@ Map.maps.push(new Map({
             ],
             "name": "Comoros",
             "population": 813912,"gdp": 616654490.413179,"id": "COM",
-            "hdi": 0.28,"alr": 49.1961402893066,"edu": 104.974891662598,"lifeEx": 63.701
+            "hdi": 0.28,"alr": 49.1961402893066,"edu": 104.974891662598,"lifeEx": 63.701,"area": 1861,"pollution": 100,"growth": 2.49999999999999
         },
         {
             "outlines": [
@@ -3491,7 +3499,8 @@ Map.maps.push(new Map({
             "population": 55345,"gdp": 909854619.518519,"id": "KNA",
             "hdi": 0.59,"alr": null,
             "edu": null,
-            "lifeEx": 71.3365853658537
+            "lifeEx": 71.3365853658537,"area": 260,"pollution": null,
+            "growth": 1.74309526642502
         },
         {
             "outlines": [
@@ -3506,7 +3515,7 @@ Map.maps.push(new Map({
             "population": 25490965,"gdp": null,
             "id": "PRK",
             "hdi": null,
-            "alr": 99.9981918334961,"edu": 99.4265365600586,"lifeEx": 71.685
+            "alr": 99.9981918334961,"edu": 99.4265365600586,"lifeEx": 71.685,"area": 120540,"pollution": 100,"growth": null
         },
         {
             "outlines": [
@@ -3547,7 +3556,7 @@ Map.maps.push(new Map({
             "name": "South Korea",
             "population": 51466201,"gdp": 1411245589976.63,"id": "KOR",
             "hdi": 0.85,"alr": null,
-            "edu": 97.5880584716797,"lifeEx": 82.0243902439024
+            "edu": 97.5880584716797,"lifeEx": 82.0243902439024,"area": 100280,"pollution": 100,"growth": 3.06276846243263
         },
         {
             "outlines": [
@@ -3574,7 +3583,7 @@ Map.maps.push(new Map({
             ],
             "name": "Kuwait",
             "population": 4136528,"gdp": 110875579086.698,"id": "KWT",
-            "hdi": 0.54,"alr": 95.6854476928711,"edu": 100.627990722656,"lifeEx": 74.694
+            "hdi": 0.54,"alr": 95.6854476928711,"edu": 100.627990722656,"lifeEx": 74.694,"area": 17820,"pollution": 100,"growth": -2.86643105398004
         },
         {
             "outlines": [
@@ -3592,7 +3601,8 @@ Map.maps.push(new Map({
             "population": 61559,"gdp": 3207032512.94205,"id": "CYM",
             "hdi": null,
             "alr": 98.8678207397461,"edu": null,
-            "lifeEx": 82.190243902439
+            "lifeEx": 82.190243902439,"area": 264,"pollution": null,
+            "growth": 5.30520278574356
         },
         {
             "outlines": [
@@ -3608,7 +3618,7 @@ Map.maps.push(new Map({
             ],
             "name": "Kazakhstan",
             "population": 18037646,"gdp": 137278320084.171,"id": "KAZ",
-            "hdi": 0.58,"alr": 99.7816314697266,"edu": 107.912406921387,"lifeEx": 72.3
+            "hdi": 0.58,"alr": 99.7816314697266,"edu": 107.912406921387,"lifeEx": 72.3,"area": 2724902,"pollution": 62.2422845,"growth": 3.99999999963237
         },
         {
             "outlines": [
@@ -3618,7 +3628,7 @@ Map.maps.push(new Map({
             ],
             "name": "Lao People's Democratic Republic",
             "population": 6858160,"gdp": 15903329472.9904,"id": "LAO",
-            "hdi": 0.36,"alr": 58.2879409790039,"edu": 110.48738861084,"lifeEx": 66.683
+            "hdi": 0.36,"alr": 58.2879409790039,"edu": 110.48738861084,"lifeEx": 66.683,"area": 236800,"pollution": 100,"growth": 6.89274796631018
         },
         {
             "outlines": [
@@ -3628,7 +3638,7 @@ Map.maps.push(new Map({
             ],
             "name": "Lebanon",
             "population": 6082357,"gdp": 49598825982.1559,"id": "LBN",
-            "hdi": 0.51,"alr": 91.1841888427734,"edu": 89.0883407592773,"lifeEx": 79.584
+            "hdi": 0.51,"alr": 91.1841888427734,"edu": 89.0883407592773,"lifeEx": 79.584,"area": 10450,"pollution": 100,"growth": 2.02083239557724
         },
         {
             "outlines": [
@@ -3640,7 +3650,7 @@ Map.maps.push(new Map({
             "population": 178844,"gdp": 1667078703.7037,"id": "LCA",
             "hdi": null,
             "alr": null,
-            "edu": 100.722450256348,"lifeEx": 75.496
+            "edu": 100.722450256348,"lifeEx": 75.496,"area": 620,"pollution": 100,"growth": 2.69031205078019
         },
         {
             "outlines": [
@@ -3652,7 +3662,8 @@ Map.maps.push(new Map({
             "population": 37922,"gdp": 6289165409.55908,"id": "LIE",
             "hdi": null,
             "alr": null,
-            "edu": 105.491020202637,"lifeEx": 82.6560975609756
+            "edu": 105.491020202637,"lifeEx": 82.6560975609756,"area": 160,"pollution": null,
+            "growth": -1.15748182240911
         },
         {
             "outlines": [
@@ -3668,7 +3679,7 @@ Map.maps.push(new Map({
             ],
             "name": "Sri Lanka",
             "population": 21444000,"gdp": 81321876307.2556,"id": "LKA",
-            "hdi": 0.51,"alr": 91.1813583374023,"edu": 101.897270202637,"lifeEx": 75.284
+            "hdi": 0.51,"alr": 91.1813583374023,"edu": 101.897270202637,"lifeEx": 75.284,"area": 65610,"pollution": 100,"growth": 3.11255809494433
         },
         {
             "outlines": [
@@ -3678,7 +3689,7 @@ Map.maps.push(new Map({
             ],
             "name": "Liberia",
             "population": 4731906,"gdp": 2101000000,"id": "LBR",
-            "hdi": 0.24,"alr": 42.9410781860352,"edu": 94.089469909668,"lifeEx": 62.505
+            "hdi": 0.24,"alr": 42.9410781860352,"edu": 94.089469909668,"lifeEx": 62.505,"area": 111370,"pollution": 99.1034524,"growth": 2.45459643673698
         },
         {
             "outlines": [
@@ -3688,7 +3699,7 @@ Map.maps.push(new Map({
             ],
             "name": "Lesotho",
             "population": 2233339,"gdp": 2291321667.48246,"id": "LSO",
-            "hdi": 0.28,"alr": 76.6352005004883,"edu": 103.900192260742,"lifeEx": 54.174
+            "hdi": 0.28,"alr": 76.6352005004883,"edu": 103.900192260742,"lifeEx": 54.174,"area": 30360,"pollution": 100,"growth": 5.5908766710687
         },
         {
             "outlines": [
@@ -3701,7 +3712,7 @@ Map.maps.push(new Map({
             ],
             "name": "Lithuania",
             "population": 2827721,"gdp": 42738875963.3703,"id": "LTU",
-            "hdi": 0.65,"alr": 99.8155975341797,"edu": 101.336212158203,"lifeEx": 74.3219512195122
+            "hdi": 0.65,"alr": 99.8155975341797,"edu": 101.336212158203,"lifeEx": 74.3219512195122,"area": 65286,"pollution": 86.3333357,"growth": 3.82893627290288
         },
         {
             "outlines": [
@@ -3713,7 +3724,7 @@ Map.maps.push(new Map({
             "population": 599449,"gdp": 58631324559.4484,"id": "LUX",
             "hdi": null,
             "alr": null,
-            "edu": 98.6271286010742,"lifeEx": 82.2926829268293
+            "edu": 98.6271286010742,"lifeEx": 82.2926829268293,"area": 2590,"pollution": 98.6006054,"growth": 2.29794130565615
         },
         {
             "outlines": [
@@ -3723,7 +3734,7 @@ Map.maps.push(new Map({
             ],
             "name": "Latvia",
             "population": 1940740,"gdp": 27572698481.8766,"id": "LVA",
-            "hdi": 0.63,"alr": 99.8958969116211,"edu": 98.4011306762695,"lifeEx": 74.5292682926829
+            "hdi": 0.63,"alr": 99.8958969116211,"edu": 98.4011306762695,"lifeEx": 74.5292682926829,"area": 64490,"pollution": 68.4973227,"growth": 4.5493377006941
         },
         {
             "outlines": [
@@ -3733,7 +3744,7 @@ Map.maps.push(new Map({
             ],
             "name": "Libya",
             "population": 6374616,"gdp": 34699395523.6073,"id": "LBY",
-            "hdi": 0.45,"alr": 60.1643905639648,"edu": 109.309112548828,"lifeEx": 71.934
+            "hdi": 0.45,"alr": 60.1643905639648,"edu": 109.309112548828,"lifeEx": 71.934,"area": 1759540,"pollution": 100,"growth": 26.6758703165806
         },
         {
             "outlines": [
@@ -3743,7 +3754,7 @@ Map.maps.push(new Map({
             ],
             "name": "Morocco",
             "population": 35739580,"gdp": 103606321692.582,"id": "MAR",
-            "hdi": 0.42,"alr": 69.4253921508789,"edu": 110.258346557617,"lifeEx": 75.821
+            "hdi": 0.42,"alr": 69.4253921508789,"edu": 110.258346557617,"lifeEx": 75.821,"area": 446550,"pollution": 100,"growth": 4.10000000687079
         },
         {
             "outlines": [
@@ -3756,7 +3767,9 @@ Map.maps.push(new Map({
             "hdi": null,
             "alr": null,
             "edu": null,
-            "lifeEx": null
+            "lifeEx": null,
+            "area": 2,"pollution": null,
+            "growth": 9.99999999999939
         },
         {
             "outlines": [
@@ -3766,7 +3779,7 @@ Map.maps.push(new Map({
             ],
             "name": "Moldova",
             "population": 3549750,"gdp": 6749515654.64419,"id": "MDA",
-            "hdi": 0.5,"alr": 99.138313293457,"edu": 92.4127807617188,"lifeEx": 71.61
+            "hdi": 0.5,"alr": 99.138313293457,"edu": 92.4127807617188,"lifeEx": 71.61,"area": 33850,"pollution": 100,"growth": 4.49999989979695
         },
         {
             "outlines": [
@@ -3782,7 +3795,7 @@ Map.maps.push(new Map({
             ],
             "name": "Madagascar",
             "population": 25570895,"gdp": 10001193420.1518,"id": "MDG",
-            "hdi": 0.27,"alr": 71.5726165771484,"edu": 143.824188232422,"lifeEx": 65.932
+            "hdi": 0.27,"alr": 71.5726165771484,"edu": 143.824188232422,"lifeEx": 65.932,"area": 587295,"pollution": 86.276227,"growth": 4.17079476586513
         },
         {
             "outlines": [
@@ -3793,7 +3806,7 @@ Map.maps.push(new Map({
             "name": "Montenegro",
             "population": 622471,"gdp": 4374127212.38938,"id": "MNE",
             "hdi": null,
-            "alr": 98.4422073364258,"edu": 96.0264663696289,"lifeEx": 77.116
+            "alr": 98.4422073364258,"edu": 96.0264663696289,"lifeEx": 77.116,"area": 13810,"pollution": 100,"growth": 4.30000405578322
         },
         {
             "outlines": [
@@ -3807,7 +3820,8 @@ Map.maps.push(new Map({
             "hdi": null,
             "alr": null,
             "edu": null,
-            "lifeEx": 79.6219512195122
+            "lifeEx": 79.6219512195122,"area": 54.4,"pollution": null,
+            "growth": null
         },
         {
             "outlines": [
@@ -3830,7 +3844,7 @@ Map.maps.push(new Map({
             "name": "Marshall Islands",
             "population": 53127,"gdp": 194497900,"id": "MHL",
             "hdi": null,
-            "alr": 98.2650833129883,"edu": 89.2949523925781,"lifeEx": 65.2390243902439
+            "alr": 98.2650833129883,"edu": 89.2949523925781,"lifeEx": 65.2390243902439,"area": 180,"pollution": 0,"growth": 2.50000000000001
         },
         {
             "outlines": [
@@ -3840,7 +3854,7 @@ Map.maps.push(new Map({
             ],
             "name": "Macedonia",
             "population": 2083160,"gdp": 10899583154.6499,"id": "MKD",
-            "hdi": 0.51,"alr": 96.1289291381836,"edu": 93.8876037597656,"lifeEx": 75.703
+            "hdi": 0.51,"alr": 96.1289291381836,"edu": 93.8876037597656,"lifeEx": 75.703,"area": 25710,"pollution": 99.8889279,"growth": 0.0202036899284508
         },
         {
             "outlines": [
@@ -3850,7 +3864,7 @@ Map.maps.push(new Map({
             ],
             "name": "Mali",
             "population": 18541980,"gdp": 14034980333.6615,"id": "MLI",
-            "hdi": 0.21,"alr": 33.0688896179199,"edu": 77.0798873901367,"lifeEx": 57.966
+            "hdi": 0.21,"alr": 33.0688896179199,"edu": 77.0798873901367,"lifeEx": 57.966,"area": 1240190,"pollution": 100,"growth": 5.29999999967936
         },
         {
             "outlines": [
@@ -3861,7 +3875,8 @@ Map.maps.push(new Map({
             "name": "Macau",
             "population": 622567,"gdp": 44802641829.9265,"id": "MAC",
             "hdi": null,
-            "alr": 96.5384902954102,"edu": 105.841369628906,"lifeEx": 83.849
+            "alr": 96.5384902954102,"edu": 105.841369628906,"lifeEx": 83.849,"area": 30.3,"pollution": null,
+            "growth": 9.09610368100699
         },
         {
             "outlines": [
@@ -3925,7 +3940,7 @@ Map.maps.push(new Map({
             ],
             "name": "Myanmar",
             "population": 53370609,"gdp": 63225097051.255,"id": "MMR",
-            "hdi": 0.39,"alr": 75.5512008666992,"edu": 111.637100219727,"lifeEx": 66.612
+            "hdi": 0.39,"alr": 75.5512008666992,"edu": 111.637100219727,"lifeEx": 66.612,"area": 676590,"pollution": 100,"growth": 6.36884052643458
         },
         {
             "outlines": [
@@ -3935,7 +3950,7 @@ Map.maps.push(new Map({
             ],
             "name": "Mongolia",
             "population": 3075647,"gdp": 11183458130.8083,"id": "MNG",
-            "hdi": 0.5,"alr": 98.2570037841797,"edu": 104.20548248291,"lifeEx": 69.287
+            "hdi": 0.5,"alr": 98.2570037841797,"edu": 104.20548248291,"lifeEx": 69.287,"area": 1564120,"pollution": 90.0023784,"growth": 5.88462457990151
         },
         {
             "outlines": [
@@ -3963,7 +3978,8 @@ Map.maps.push(new Map({
             "hdi": null,
             "alr": null,
             "edu": null,
-            "lifeEx": null
+            "lifeEx": null,
+            "area": 460,"pollution": 0,"growth": 28.6060606060606
         },
         {
             "outlines": [
@@ -3991,7 +4007,7 @@ Map.maps.push(new Map({
             ],
             "name": "Mauritania",
             "population": 4420184,"gdp": 4739298730.30837,"id": "MRT",
-            "hdi": 0.25,"alr": 45.5037803649902,"edu": 93.8647079467773,"lifeEx": 63.238
+            "hdi": 0.25,"alr": 45.5037803649902,"edu": 93.8647079467773,"lifeEx": 63.238,"area": 1030700,"pollution": 100,"growth": 3.49999999999999
         },
         {
             "outlines": [
@@ -4019,7 +4035,7 @@ Map.maps.push(new Map({
             ],
             "name": "Malta",
             "population": 465292,"gdp": 10999047580.3881,"id": "MLT",
-            "hdi": 0.63,"alr": 93.3073577880859,"edu": 104.542617797852,"lifeEx": 81.7975609756098
+            "hdi": 0.63,"alr": 93.3073577880859,"edu": 104.542617797852,"lifeEx": 81.7975609756098,"area": 320,"pollution": 0,"growth": 6.42248931445086
         },
         {
             "outlines": [
@@ -4029,7 +4045,7 @@ Map.maps.push(new Map({
             ],
             "name": "Mauritius",
             "population": 1264613,"gdp": 12168437744.2644,"id": "MUS",
-            "hdi": 0.54,"alr": 92.7076034545898,"edu": 102.453407287598,"lifeEx": 74.3948780487805
+            "hdi": 0.54,"alr": 92.7076034545898,"edu": 102.453407287598,"lifeEx": 74.3948780487805,"area": 2040,"pollution": 74.3231187,"growth": 3.79999999999998
         },
         {
             "outlines": [
@@ -4043,7 +4059,7 @@ Map.maps.push(new Map({
             "name": "Maldives",
             "population": 436330,"gdp": 4224209599.22917,"id": "MDV",
             "hdi": null,
-            "alr": 98.6101226806641,"edu": 101.509391784668,"lifeEx": 77.339
+            "alr": 98.6101226806641,"edu": 101.509391784668,"lifeEx": 77.339,"area": 300,"pollution": 100,"growth": 8.8284560571562
         },
         {
             "outlines": [
@@ -4059,7 +4075,7 @@ Map.maps.push(new Map({
             ],
             "name": "Malawi",
             "population": 18622104,"gdp": 5433038646.51677,"id": "MWI",
-            "hdi": 0.28,"alr": 62.1435394287109,"edu": 139.264495849609,"lifeEx": 63.223
+            "hdi": 0.28,"alr": 62.1435394287109,"edu": 139.264495849609,"lifeEx": 63.223,"area": 118480,"pollution": 99.9999775,"growth": 4.00003051653042
         },
         {
             "outlines": [
@@ -4114,7 +4130,7 @@ Map.maps.push(new Map({
             ],
             "name": "Mexico",
             "population": 129163276,"gdp": 1046922702460.87,"id": "MEX",
-            "hdi": 0.54,"alr": 94.472282409668,"edu": 103.932769775391,"lifeEx": 77.118
+            "hdi": 0.54,"alr": 94.472282409668,"edu": 103.932769775391,"lifeEx": 77.118,"area": 1964380,"pollution": 93.3918229,"growth": 2.03658583416961
         },
         {
             "outlines": [
@@ -4148,7 +4164,7 @@ Map.maps.push(new Map({
             ],
             "name": "Malaysia",
             "population": 31624264,"gdp": 296535930381.12,"id": "MYS",
-            "hdi": 0.52,"alr": 93.1178894042969,"edu": 103.484672546387,"lifeEx": 75.3
+            "hdi": 0.52,"alr": 93.1178894042969,"edu": 103.484672546387,"lifeEx": 75.3,"area": 330800,"pollution": 82.7393512,"growth": 5.90176922237052
         },
         {
             "outlines": [
@@ -4164,7 +4180,7 @@ Map.maps.push(new Map({
             ],
             "name": "Mozambique",
             "population": 29668834,"gdp": 11014858591.8422,"id": "MOZ",
-            "hdi": 0.28,"alr": 50.5838088989258,"edu": 106.31649017334,"lifeEx": 58.311
+            "hdi": 0.28,"alr": 50.5838088989258,"edu": 106.31649017334,"lifeEx": 58.311,"area": 799380,"pollution": 98.2544021,"growth": 3.7106974241939
         },
         {
             "outlines": [
@@ -4174,7 +4190,7 @@ Map.maps.push(new Map({
             ],
             "name": "Namibia",
             "population": 2533794,"gdp": 10947880690.471,"id": "NAM",
-            "hdi": 0.41,"alr": 88.2746276855469,"edu": 111.314651489258,"lifeEx": 64.388
+            "hdi": 0.41,"alr": 88.2746276855469,"edu": 111.314651489258,"lifeEx": 64.388,"area": 824290,"pollution": 97.2163357,"growth": -0.770335374082606
         },
         {
             "outlines": [
@@ -4202,7 +4218,8 @@ Map.maps.push(new Map({
             "hdi": null,
             "alr": null,
             "edu": null,
-            "lifeEx": 76.9615007371216
+            "lifeEx": 76.9615007371216,"area": 18580,"pollution": null,
+            "growth": 2.10010884233
         },
         {
             "outlines": [
@@ -4212,7 +4229,7 @@ Map.maps.push(new Map({
             ],
             "name": "Niger",
             "population": 21477348,"gdp": 7528387858.34739,"id": "NER",
-            "hdi": 0.17,"alr": 15.4567003250122,"edu": 73.6914215087891,"lifeEx": 60.058
+            "hdi": 0.17,"alr": 15.4567003250122,"edu": 73.6914215087891,"lifeEx": 60.058,"area": 1267000,"pollution": 100,"growth": 4.8945165911239
         },
         {
             "outlines": [
@@ -4240,7 +4257,7 @@ Map.maps.push(new Map({
             ],
             "name": "Nigeria",
             "population": 190886311,"gdp": 404652720164.859,"id": "NGA",
-            "hdi": 0.26,"alr": 51.0776596069336,"edu": 94.0653076171875,"lifeEx": 53.428
+            "hdi": 0.26,"alr": 51.0776596069336,"edu": 94.0653076171875,"lifeEx": 53.428,"area": 923770,"pollution": 100,"growth": 0.814544029729689
         },
         {
             "outlines": [
@@ -4250,7 +4267,7 @@ Map.maps.push(new Map({
             ],
             "name": "Nicaragua",
             "population": 6217581,"gdp": 13230844686.858,"id": "NIC",
-            "hdi": 0.42,"alr": 78.0029830932617,"edu": 123.258857727051,"lifeEx": 75.404
+            "hdi": 0.42,"alr": 78.0029830932617,"edu": 123.258857727051,"lifeEx": 75.404,"area": 130370,"pollution": 99.9996908,"growth": 4.8610949762172
         },
         {
             "outlines": [
@@ -4285,7 +4302,7 @@ Map.maps.push(new Map({
             "name": "Netherlands",
             "population": 17132854,"gdp": 777227541581.307,"id": "NLD",
             "hdi": 0.86,"alr": null,
-            "edu": 103.286758422852,"lifeEx": 81.509756097561
+            "edu": 103.286758422852,"lifeEx": 81.509756097561,"area": 41540,"pollution": 91.5829136,"growth": 3.16221229332892
         },
         {
             "outlines": [
@@ -4359,7 +4376,7 @@ Map.maps.push(new Map({
             "name": "Norway",
             "population": 5282223,"gdp": 371076190476.19,"id": "NOR",
             "hdi": 0.84,"alr": null,
-            "edu": 100.225883483887,"lifeEx": 82.509756097561
+            "edu": 100.225883483887,"lifeEx": 82.509756097561,"area": 385178,"pollution": 0,"growth": 1.91874591198309
         },
         {
             "outlines": [
@@ -4369,7 +4386,7 @@ Map.maps.push(new Map({
             ],
             "name": "Nepal",
             "population": 29304998,"gdp": 21131983246.1855,"id": "NPL",
-            "hdi": 0.34,"alr": 59.6272506713867,"edu": 134.120590209961,"lifeEx": 70.253
+            "hdi": 0.34,"alr": 59.6272506713867,"edu": 134.120590209961,"lifeEx": 70.253,"area": 147180,"pollution": 99.9437771,"growth": 7.49940228855344
         },
         {
             "outlines": [
@@ -4381,7 +4398,9 @@ Map.maps.push(new Map({
             "population": 13649,"gdp": 102060129.577055,"id": "NRU",
             "hdi": null,
             "alr": null,
-            "edu": 107.045593261719,"lifeEx": null
+            "edu": 107.045593261719,"lifeEx": null,
+            "area": 20,"pollution": null,
+            "growth": 4.15468510415921
         },
         {
             "outlines": [
@@ -4437,7 +4456,7 @@ Map.maps.push(new Map({
             "name": "New Zealand",
             "population": 4793900,"gdp": 184969146624.47,"id": "NZL",
             "hdi": 0.86,"alr": null,
-            "edu": 98.8183364868164,"lifeEx": 81.6124390243903
+            "edu": 98.8183364868164,"lifeEx": 81.6124390243903,"area": 267710,"pollution": 0,"growth": 3.02865704250725
         },
         {
             "outlines": [
@@ -4456,7 +4475,7 @@ Map.maps.push(new Map({
             ],
             "name": "Oman",
             "population": 4636262,"gdp": 66293368010.4031,"id": "OMN",
-            "hdi": 0.53,"alr": 93.0386123657227,"edu": 108.608016967773,"lifeEx": 77.029
+            "hdi": 0.53,"alr": 93.0386123657227,"edu": 108.608016967773,"lifeEx": 77.029,"area": 309500,"pollution": 100,"growth": -0.272675200288305
         },
         {
             "outlines": [
@@ -4478,7 +4497,7 @@ Map.maps.push(new Map({
             ],
             "name": "Panama",
             "population": 4098587,"gdp": 55187700000,"id": "PAN",
-            "hdi": 0.57,"alr": 94.0941162109375,"edu": 95.9894409179688,"lifeEx": 78.001
+            "hdi": 0.57,"alr": 94.0941162109375,"edu": 95.9894409179688,"lifeEx": 78.001,"area": 75420,"pollution": 63.3957663,"growth": 5.35652126574577
         },
         {
             "outlines": [
@@ -4488,7 +4507,7 @@ Map.maps.push(new Map({
             ],
             "name": "Peru",
             "population": 32165485,"gdp": 192207342004.681,"id": "PER",
-            "hdi": 0.53,"alr": 94.1736679077148,"edu": 103.135429382324,"lifeEx": 74.983
+            "hdi": 0.53,"alr": 94.1736679077148,"edu": 103.135429382324,"lifeEx": 74.983,"area": 1285220,"pollution": 97.5508785,"growth": 2.52743067809553
         },
         {
             "outlines": [
@@ -4561,7 +4580,8 @@ Map.maps.push(new Map({
             "hdi": null,
             "alr": null,
             "edu": null,
-            "lifeEx": 76.813
+            "lifeEx": 76.813,"area": 4000,"pollution": null,
+            "growth": 4.0000003434361
         },
         {
             "outlines": [
@@ -4647,7 +4667,7 @@ Map.maps.push(new Map({
             "name": "Papua New Guinea",
             "population": 8251162,"gdp": 20213214171.7204,"id": "PNG",
             "hdi": null,
-            "alr": 57.34326171875,"edu": 112.42414855957,"lifeEx": 65.544
+            "alr": 57.34326171875,"edu": 112.42414855957,"lifeEx": 65.544,"area": 462840,"pollution": 55.1253323,"growth": 2.2
         },
         {
             "outlines": [
@@ -4798,7 +4818,7 @@ Map.maps.push(new Map({
             ],
             "name": "Philippines",
             "population": 104918090,"gdp": 304905406845.291,"id": "PHL",
-            "hdi": 0.46,"alr": 96.3980026245117,"edu": 113.007041931152,"lifeEx": 69.094
+            "hdi": 0.46,"alr": 96.3980026245117,"edu": 113.007041931152,"lifeEx": 69.094,"area": 300000,"pollution": 99.987994,"growth": 6.68451750279448
         },
         {
             "outlines": [
@@ -4808,7 +4828,7 @@ Map.maps.push(new Map({
             ],
             "name": "Pakistan",
             "population": 197015955,"gdp": 278913371202.065,"id": "PAK",
-            "hdi": 0.29,"alr": 56.9771499633789,"edu": 97.7096176147461,"lifeEx": 66.481
+            "hdi": 0.29,"alr": 56.9771499633789,"edu": 97.7096176147461,"lifeEx": 66.481,"area": 796100,"pollution": 99.9310264,"growth": 5.7006212410121
         },
         {
             "outlines": [
@@ -4818,7 +4838,7 @@ Map.maps.push(new Map({
             ],
             "name": "Poland",
             "population": 37975841,"gdp": 471364408713.956,"id": "POL",
-            "hdi": 0.67,"alr": 98.7427368164063,"edu": 110.104690551758,"lifeEx": 77.4512195121951
+            "hdi": 0.67,"alr": 98.7427368164063,"edu": 110.104690551758,"lifeEx": 77.4512195121951,"area": 312680,"pollution": 99.7401006,"growth": 4.55038692287629
         },
         {
             "outlines": [
@@ -4867,7 +4887,7 @@ Map.maps.push(new Map({
             ],
             "name": "Puerto Rico",
             "population": 3337177,"gdp": 103134778000,"id": "PRI",
-            "hdi": 0.62,"alr": 91.9652328491211,"edu": 86.6929397583008,"lifeEx": 79.7883170731707
+            "hdi": 0.62,"alr": 91.9652328491211,"edu": 86.6929397583008,"lifeEx": 79.7883170731707,"area": 8870,"pollution": 100,"growth": -2.60612521806551
         },
         {
             "outlines": [
@@ -4881,7 +4901,7 @@ Map.maps.push(new Map({
             "name": "Palestinian Territories",
             "population": 4684777,"gdp": 13397100000,"id": "PSE",
             "hdi": null,
-            "alr": 96.9302291870117,"edu": 93.9209213256836,"lifeEx": 73.473
+            "alr": 96.9302291870117,"edu": 93.9209213256836,"lifeEx": 73.473,"area": 6020,"pollution": 100,"growth": 3.14023678003269
         },
         {
             "outlines": [
@@ -4915,7 +4935,7 @@ Map.maps.push(new Map({
             ],
             "name": "Portugal",
             "population": 10293718,"gdp": 204836597909.466,"id": "PRT",
-            "hdi": 0.75,"alr": 94.47705078125,"edu": 105.246139526367,"lifeEx": 81.1268292682927
+            "hdi": 0.75,"alr": 94.47705078125,"edu": 105.246139526367,"lifeEx": 81.1268292682927,"area": 92225,"pollution": 0,"growth": 2.6798271030685
         },
         {
             "outlines": [
@@ -4929,7 +4949,8 @@ Map.maps.push(new Map({
             "name": "Palau",
             "population": 21729,"gdp": 310248300,"id": "PLW",
             "hdi": null,
-            "alr": 96.5937423706055,"edu": 114.856338500977,"lifeEx": 69.1292682926829
+            "alr": 96.5937423706055,"edu": 114.856338500977,"lifeEx": 69.1292682926829,"area": 460,"pollution": null,
+            "growth": -3.72047836816589
         },
         {
             "outlines": [
@@ -4939,7 +4960,7 @@ Map.maps.push(new Map({
             ],
             "name": "Paraguay",
             "population": 6811297,"gdp": 27424071382.7244,"id": "PRY",
-            "hdi": 0.48,"alr": 95.0727005004883,"edu": 105.987380981445,"lifeEx": 73.12
+            "hdi": 0.48,"alr": 95.0727005004883,"edu": 105.987380981445,"lifeEx": 73.12,"area": 406752,"pollution": 100,"growth": 0.772051674391733
         },
         {
             "outlines": [
@@ -4949,7 +4970,7 @@ Map.maps.push(new Map({
             ],
             "name": "Qatar",
             "population": 2639211,"gdp": 152451923076.923,"id": "QAT",
-            "hdi": 0.63,"alr": 97.7466888427734,"edu": 103.669548034668,"lifeEx": 78.184
+            "hdi": 0.63,"alr": 97.7466888427734,"edu": 103.669548034668,"lifeEx": 78.184,"area": 11610,"pollution": 100,"growth": 1.5961315037523
         },
         {
             "outlines": [
@@ -4974,7 +4995,7 @@ Map.maps.push(new Map({
             ],
             "name": "Romania",
             "population": 19586539,"gdp": 187592037839.968,"id": "ROU",
-            "hdi": 0.57,"alr": 98.6042861938477,"edu": 89.448356628418,"lifeEx": 75.0121951219512
+            "hdi": 0.57,"alr": 98.6042861938477,"edu": 89.448356628418,"lifeEx": 75.0121951219512,"area": 238390,"pollution": 97.7767788,"growth": 6.94707469361755
         },
         {
             "outlines": [
@@ -4984,7 +5005,7 @@ Map.maps.push(new Map({
             ],
             "name": "Serbia",
             "population": 7022268,"gdp": 38299854688.1277,"id": "SRB",
-            "hdi": 0.54,"alr": 98.8415069580078,"edu": 100.571273803711,"lifeEx": 75.2390243902439
+            "hdi": 0.54,"alr": 98.8415069580078,"edu": 100.571273803711,"lifeEx": 75.2390243902439,"area": 88360,"pollution": 98.617718,"growth": 1.86742889618696
         },
         {
             "outlines": [
@@ -5276,7 +5297,7 @@ Map.maps.push(new Map({
             ],
             "name": "Russia",
             "population": 144495044,"gdp": 1283162985989.3,"id": "RUS",
-            "hdi": 0.57,"alr": 99.6842727661133,"edu": 102.076332092285,"lifeEx": 71.5929268292683
+            "hdi": 0.57,"alr": 99.6842727661133,"edu": 102.076332092285,"lifeEx": 71.5929268292683,"area": 17098250,"pollution": 71.1386221,"growth": 1.5456302290946
         },
         {
             "outlines": [
@@ -5286,7 +5307,7 @@ Map.maps.push(new Map({
             ],
             "name": "Rwanda",
             "population": 12208407,"gdp": 8376048904.58291,"id": "RWA",
-            "hdi": 0.33,"alr": 68.3310317993164,"edu": 137.02116394043,"lifeEx": 67.129
+            "hdi": 0.33,"alr": 68.3310317993164,"edu": 137.02116394043,"lifeEx": 67.129,"area": 26340,"pollution": 100,"growth": 6.10059404835408
         },
         {
             "outlines": [
@@ -5305,7 +5326,7 @@ Map.maps.push(new Map({
             ],
             "name": "Saudi Arabia",
             "population": 32938213,"gdp": 646438380560,"id": "SAU",
-            "hdi": 0.5,"alr": 94.4263381958008,"edu": 116.243377685547,"lifeEx": 74.561
+            "hdi": 0.5,"alr": 94.4263381958008,"edu": 116.243377685547,"lifeEx": 74.561,"area": 2149690,"pollution": 100,"growth": -0.735462898771829
         },
         {
             "outlines": [
@@ -5376,7 +5397,7 @@ Map.maps.push(new Map({
             "name": "Solomon Islands",
             "population": 611343,"gdp": 1202125000,"id": "SLB",
             "hdi": null,
-            "alr": 76.5999984741211,"edu": 114.751342773438,"lifeEx": 70.726
+            "alr": 76.5999984741211,"edu": 114.751342773438,"lifeEx": 70.726,"area": 28900,"pollution": 0,"growth": 3.23841714732924
         },
         {
             "outlines": [
@@ -5386,7 +5407,7 @@ Map.maps.push(new Map({
             ],
             "name": "Seychelles",
             "population": 95843,"gdp": 1427323889.0961,"id": "SYC",
-            "hdi": 0.51,"alr": 93.954231262207,"edu": 112.827262878418,"lifeEx": 74.309756097561
+            "hdi": 0.51,"alr": 93.954231262207,"edu": 112.827262878418,"lifeEx": 74.309756097561,"area": 460,"pollution": 100,"growth": 4.20000000000003
         },
         {
             "outlines": [
@@ -5396,7 +5417,7 @@ Map.maps.push(new Map({
             ],
             "name": "Sudan",
             "population": 40533330,"gdp": 95584380032.2061,"id": "SDN",
-            "hdi": 0.26,"alr": 53.5173797607422,"edu": 73.5941009521484,"lifeEx": 64.486
+            "hdi": 0.26,"alr": 53.5173797607422,"edu": 73.5941009521484,"lifeEx": 64.486,"area": 1879357.5,"pollution": 100,"growth": 4.28307100401813
         },
         {
             "outlines": [
@@ -5422,7 +5443,7 @@ Map.maps.push(new Map({
             "name": "Sweden",
             "population": 10067744,"gdp": 514459972806.171,"id": "SWE",
             "hdi": 0.86,"alr": null,
-            "edu": 122.938789367676,"lifeEx": 82.2048780487805
+            "edu": 122.938789367676,"lifeEx": 82.2048780487805,"area": 447420,"pollution": 0,"growth": 2.28811587026492
         },
         {
             "outlines": [
@@ -5432,7 +5453,7 @@ Map.maps.push(new Map({
             ],
             "name": "Singapore",
             "population": 5612253,"gdp": 296975678610.206,"id": "SGP",
-            "hdi": 0.82,"alr": 97.0495910644531,"edu": 100.773208618164,"lifeEx": 82.7951219512195
+            "hdi": 0.82,"alr": 97.0495910644531,"edu": 100.773208618164,"lifeEx": 82.7951219512195,"area": 719,"pollution": 100,"growth": 3.61854233591816
         },
         {
             "outlines": [
@@ -5460,7 +5481,7 @@ Map.maps.push(new Map({
             ],
             "name": "Slovenia",
             "population": 2066748,"gdp": 44708598648.8562,"id": "SVN",
-            "hdi": 0.77,"alr": 99.5245208740234,"edu": 99.3842163085938,"lifeEx": 80.7756097560976
+            "hdi": 0.77,"alr": 99.5245208740234,"edu": 99.3842163085938,"lifeEx": 80.7756097560976,"area": 20270,"pollution": 96.4226806,"growth": 5.00080822229401
         },
         {
             "outlines": [
@@ -5513,7 +5534,7 @@ Map.maps.push(new Map({
             "name": "Slovakia",
             "population": 5439892,"gdp": 89768598023.3903,"id": "SVK",
             "hdi": 0.62,"alr": null,
-            "edu": 98.5226135253906,"lifeEx": 76.5634146341463
+            "edu": 98.5226135253906,"lifeEx": 76.5634146341463,"area": 49035,"pollution": 100,"growth": 3.40016631107987
         },
         {
             "outlines": [
@@ -5526,7 +5547,7 @@ Map.maps.push(new Map({
             ],
             "name": "Sierra Leone",
             "population": 7557212,"gdp": 3736588553.56394,"id": "SLE",
-            "hdi": 0.2,"alr": 32.4261703491211,"edu": 114.836082458496,"lifeEx": 51.835
+            "hdi": 0.2,"alr": 32.4261703491211,"edu": 114.836082458496,"lifeEx": 51.835,"area": 72300,"pollution": 100,"growth": 4.15766205148933
         },
         {
             "outlines": [
@@ -5538,7 +5559,8 @@ Map.maps.push(new Map({
             "population": 33400,"gdp": 1590707964.60177,"id": "SMR",
             "hdi": null,
             "alr": null,
-            "edu": 93.3017196655273,"lifeEx": 85.4170731707317
+            "edu": 93.3017196655273,"lifeEx": 85.4170731707317,"area": 60,"pollution": null,
+            "growth": 1.23604465709728
         },
         {
             "outlines": [
@@ -5548,7 +5570,7 @@ Map.maps.push(new Map({
             ],
             "name": "Senegal",
             "population": 15850567,"gdp": 14683697630.9,"id": "SEN",
-            "hdi": 0.28,"alr": 42.8175010681152,"edu": 83.0852890014648,"lifeEx": 67.146
+            "hdi": 0.28,"alr": 42.8175010681152,"edu": 83.0852890014648,"lifeEx": 67.146,"area": 196710,"pollution": 100,"growth": 6.78708045023151
         },
         {
             "outlines": [
@@ -5560,7 +5582,7 @@ Map.maps.push(new Map({
             "population": 14742523,"gdp": 6217000000,"id": "SOM",
             "hdi": null,
             "alr": null,
-            "edu": 23.5478591918945,"lifeEx": 56.293
+            "edu": 23.5478591918945,"lifeEx": 56.293,"area": 637660,"pollution": 99.7965691,"growth": -1.48407568424221
         },
         {
             "outlines": [
@@ -5571,7 +5593,7 @@ Map.maps.push(new Map({
             "name": "Suriname",
             "population": 563402,"gdp": 3278425328.32418,"id": "SUR",
             "hdi": null,
-            "alr": 92.8686599731445,"edu": 120.963958740234,"lifeEx": 71.405
+            "alr": 92.8686599731445,"edu": 120.963958740234,"lifeEx": 71.405,"area": 163820,"pollution": 99.9924511,"growth": 0.0954805856142542
         },
         {
             "outlines": [
@@ -5582,7 +5604,7 @@ Map.maps.push(new Map({
             "name": "South Sudan",
             "population": 12575714,"gdp": 9015221096.24474,"id": "SSD",
             "hdi": null,
-            "alr": 26.8312797546387,"edu": 66.5893402099609,"lifeEx": 56.811
+            "alr": 26.8312797546387,"edu": 66.5893402099609,"lifeEx": 56.811,"area": 644330,"pollution": 100,"growth": -13.833722741433
         },
         {
             "outlines": [
@@ -5596,7 +5618,7 @@ Map.maps.push(new Map({
             "name": "Sao Tome and Principe",
             "population": 204327,"gdp": 342781715.52048,"id": "STP",
             "hdi": null,
-            "alr": 90.1430969238281,"edu": 110.233978271484,"lifeEx": 66.624
+            "alr": 90.1430969238281,"edu": 110.233978271484,"lifeEx": 66.624,"area": 960,"pollution": 100,"growth": 3.87496022120715
         },
         {
             "outlines": [
@@ -5606,7 +5628,7 @@ Map.maps.push(new Map({
             ],
             "name": "El Salvador",
             "population": 6377853,"gdp": 26797470000,"id": "SLV",
-            "hdi": 0.45,"alr": 87.9698486328125,"edu": 100.225341796875,"lifeEx": 73.512
+            "hdi": 0.45,"alr": 87.9698486328125,"edu": 100.225341796875,"lifeEx": 73.512,"area": 21040,"pollution": 100,"growth": 2.32259743762357
         },
         {
             "outlines": [
@@ -5630,7 +5652,7 @@ Map.maps.push(new Map({
             ],
             "name": "Syria",
             "population": 18269868,"gdp": 40405006007.2086,"id": "SYR",
-            "hdi": 0.43,"alr": 80.8445205688477,"edu": 75.9923095703125,"lifeEx": 70.31
+            "hdi": 0.43,"alr": 80.8445205688477,"edu": 75.9923095703125,"lifeEx": 70.31,"area": 185180,"pollution": 100,"growth": 5.69999999644881
         },
         {
             "outlines": [
@@ -5640,7 +5662,7 @@ Map.maps.push(new Map({
             ],
             "name": "Swaziland",
             "population": 1367254,"gdp": 3720649374.57512,"id": "SWZ",
-            "hdi": 0.3,"alr": 83.0982894897461,"edu": 107.865951538086,"lifeEx": 57.754
+            "hdi": 0.3,"alr": 83.0982894897461,"edu": 107.865951538086,"lifeEx": 57.754,"area": 17360,"pollution": 100,"growth": 2.00062595843988
         },
         {
             "outlines": [
@@ -5660,7 +5682,9 @@ Map.maps.push(new Map({
             "hdi": null,
             "alr": null,
             "edu": null,
-            "lifeEx": null
+            "lifeEx": null,
+            "area": 950,"pollution": null,
+            "growth": null
         },
         {
             "outlines": [
@@ -5670,7 +5694,7 @@ Map.maps.push(new Map({
             ],
             "name": "Chad",
             "population": 14899994,"gdp": 9600761473.78738,"id": "TCD",
-            "hdi": 0.19,"alr": 22.3115501403809,"edu": 88.0968170166016,"lifeEx": 52.903
+            "hdi": 0.19,"alr": 22.3115501403809,"edu": 88.0968170166016,"lifeEx": 52.903,"area": 1284000,"pollution": 100,"growth": -2.95377154892373
         },
         {
             "outlines": [
@@ -5701,7 +5725,7 @@ Map.maps.push(new Map({
             ],
             "name": "Togo",
             "population": 7797694,"gdp": 4399995986.56477,"id": "TGO",
-            "hdi": 0.27,"alr": 63.7456207275391,"edu": 123.916122436523,"lifeEx": 60.232
+            "hdi": 0.27,"alr": 63.7456207275391,"edu": 123.916122436523,"lifeEx": 60.232,"area": 56790,"pollution": 100,"growth": 5.56579104193331
         },
         {
             "outlines": [
@@ -5738,7 +5762,7 @@ Map.maps.push(new Map({
             ],
             "name": "Thailand",
             "population": 69037513,"gdp": 407026127310.434,"id": "THA",
-            "hdi": 0.51,"alr": 92.8683090209961,"edu": 100.586410522461,"lifeEx": 75.303
+            "hdi": 0.51,"alr": 92.8683090209961,"edu": 100.586410522461,"lifeEx": 75.303,"area": 513120,"pollution": 100,"growth": 3.90297504194695
         },
         {
             "outlines": [
@@ -5754,7 +5778,7 @@ Map.maps.push(new Map({
             ],
             "name": "Tajikistan",
             "population": 8921343,"gdp": 6951657158.90093,"id": "TJK",
-            "hdi": 0.44,"alr": 99.45068359375,"edu": 98.8083419799805,"lifeEx": 71.051
+            "hdi": 0.44,"alr": 99.45068359375,"edu": 98.8083419799805,"lifeEx": 71.051,"area": 141376,"pollution": 99.9983478,"growth": 7.10000070763577
         },
         {
             "outlines": [
@@ -5789,7 +5813,7 @@ Map.maps.push(new Map({
             "name": "Timor-Leste",
             "population": 1296311,"gdp": 1782974000,"id": "TLS",
             "hdi": null,
-            "alr": 58.3089790344238,"edu": 109.481033325195,"lifeEx": 68.881
+            "alr": 58.3089790344238,"edu": 109.481033325195,"lifeEx": 68.881,"area": 14870,"pollution": 90.8869641,"growth": -8.00000000000003
         },
         {
             "outlines": [
@@ -5803,7 +5827,7 @@ Map.maps.push(new Map({
             "name": "Turkmenistan",
             "population": 5758075,"gdp": 36179885714.2857,"id": "TKM",
             "hdi": null,
-            "alr": 98.7783203125,"edu": 88.401741027832,"lifeEx": 67.835
+            "alr": 98.7783203125,"edu": 88.401741027832,"lifeEx": 67.835,"area": 488100,"pollution": 100,"growth": 6.50000004682975
         },
         {
             "outlines": [
@@ -5819,7 +5843,7 @@ Map.maps.push(new Map({
             ],
             "name": "Tunisia",
             "population": 11532127,"gdp": 42062549394.7859,"id": "TUN",
-            "hdi": 0.48,"alr": 79.0364303588867,"edu": 114.708549499512,"lifeEx": 75.731
+            "hdi": 0.48,"alr": 79.0364303588867,"edu": 114.708549499512,"lifeEx": 75.731,"area": 163610,"pollution": 100,"growth": 1.95512567537509
         },
         {
             "outlines": [
@@ -5836,7 +5860,7 @@ Map.maps.push(new Map({
             "name": "Tonga",
             "population": 108020,"gdp": 401562006.229967,"id": "TON",
             "hdi": null,
-            "alr": 99.3855285644531,"edu": 108.039947509766,"lifeEx": 73.029
+            "alr": 99.3855285644531,"edu": 108.039947509766,"lifeEx": 73.029,"area": 750,"pollution": 0,"growth": 2.69999999999999
         },
         {
             "outlines": [
@@ -5852,7 +5876,7 @@ Map.maps.push(new Map({
             ],
             "name": "Turkey",
             "population": 80745020,"gdp": 863711710426.514,"id": "TUR",
-            "hdi": 0.55,"alr": 95.6014175415039,"edu": 103.285369873047,"lifeEx": 75.755
+            "hdi": 0.55,"alr": 95.6014175415039,"edu": 103.285369873047,"lifeEx": 75.755,"area": 785350,"pollution": 99.8518301,"growth": 7.41864397540321
         },
         {
             "outlines": [
@@ -5865,7 +5889,7 @@ Map.maps.push(new Map({
             ],
             "name": "Trinidad and Tobago",
             "population": 1369125,"gdp": 21894706041.2353,"id": "TTO",
-            "hdi": 0.54,"alr": 96.9385528564453,"edu": 106.160293579102,"lifeEx": 70.673
+            "hdi": 0.54,"alr": 96.9385528564453,"edu": 106.160293579102,"lifeEx": 70.673,"area": 5130,"pollution": 100,"growth": -2.33601412405142
         },
         {
             "outlines": [
@@ -5886,7 +5910,9 @@ Map.maps.push(new Map({
             "population": 11192,"gdp": 34218878.4390841,"id": "TUV",
             "hdi": null,
             "alr": null,
-            "edu": 119.230766296387,"lifeEx": null
+            "edu": 119.230766296387,"lifeEx": null,
+            "area": 30,"pollution": null,
+            "growth": 3.24158911848238
         },
         {
             "outlines": [
@@ -5922,7 +5948,7 @@ Map.maps.push(new Map({
             ],
             "name": "Tanzania",
             "population": 57310019,"gdp": 47340071107.343,"id": "TZA",
-            "hdi": 0.29,"alr": 77.8872299194336,"edu": 80.7431335449219,"lifeEx": 65.675
+            "hdi": 0.29,"alr": 77.8872299194336,"edu": 80.7431335449219,"lifeEx": 65.675,"area": 947300,"pollution": 95.861412,"growth": 7.10416126472153
         },
         {
             "outlines": [
@@ -5935,7 +5961,7 @@ Map.maps.push(new Map({
             ],
             "name": "Ukraine",
             "population": 44831159,"gdp": 93270479388.5243,"id": "UKR",
-            "hdi": 0.56,"alr": 99.9743499755859,"edu": 99.8774795532227,"lifeEx": 71.4763414634146
+            "hdi": 0.56,"alr": 99.9743499755859,"edu": 99.8774795532227,"lifeEx": 71.4763414634146,"area": 603550,"pollution": 99.9920027,"growth": 2.50046747207364
         },
         {
             "outlines": [
@@ -5945,7 +5971,7 @@ Map.maps.push(new Map({
             ],
             "name": "Uganda",
             "population": 42862958,"gdp": 24078931933.4578,"id": "UGA",
-            "hdi": 0.28,"alr": 70.1982192993164,"edu": 99.7509765625,"lifeEx": 59.889
+            "hdi": 0.28,"alr": 70.1982192993164,"edu": 99.7509765625,"lifeEx": 59.889,"area": 241550,"pollution": 100,"growth": 3.96477988833888
         },
         {
             "outlines": [
@@ -6406,7 +6432,7 @@ Map.maps.push(new Map({
             "name": "United States",
             "population": 325719178,"gdp": 18624475000000,"id": "USA",
             "hdi": 0.78,"alr": null,
-            "edu": 99.2794418334961,"lifeEx": 78.690243902439
+            "edu": 99.2794418334961,"lifeEx": 78.690243902439,"area": 9831510,"pollution": 0.4574381,"growth": 2.27333854830167
         },
         {
             "outlines": [
@@ -6416,7 +6442,7 @@ Map.maps.push(new Map({
             ],
             "name": "Uruguay",
             "population": 3456750,"gdp": 52419720713.7316,"id": "URY",
-            "hdi": 0.66,"alr": 98.5238723754883,"edu": 107.423179626465,"lifeEx": 77.493
+            "hdi": 0.66,"alr": 98.5238723754883,"edu": 107.423179626465,"lifeEx": 77.493,"area": 176220,"pollution": 0,"growth": 2.65668445585696
         },
         {
             "outlines": [
@@ -6435,7 +6461,7 @@ Map.maps.push(new Map({
             ],
             "name": "Uzbekistan",
             "population": 32387200,"gdp": 67220335569.6147,"id": "UZB",
-            "hdi": 0.51,"alr": 99.9838333129883,"edu": 103.109329223633,"lifeEx": 71.314
+            "hdi": 0.51,"alr": 99.9838333129883,"edu": 103.109329223633,"lifeEx": 71.314,"area": 447400,"pollution": 99.9832783,"growth": 5.29999999887707
         },
         {
             "outlines": [
@@ -6466,7 +6492,7 @@ Map.maps.push(new Map({
             ],
             "name": "Saint Vincent and the Grenadines",
             "population": 109897,"gdp": 768224226.666667,"id": "VCT",
-            "hdi": 0.55,"alr": 95.6321563720703,"edu": 103.340393066406,"lifeEx": 73.179
+            "hdi": 0.55,"alr": 95.6321563720703,"edu": 103.340393066406,"lifeEx": 73.179,"area": 390,"pollution": 100,"growth": 1.59635119726337
         },
         {
             "outlines": [
@@ -6488,7 +6514,7 @@ Map.maps.push(new Map({
             ],
             "name": "Venezuela",
             "population": 31977065,"gdp": 482359318767.703,"id": "VEN",
-            "hdi": 0.56,"alr": 97.1270904541016,"edu": 96.5285110473633,"lifeEx": 74.545
+            "hdi": 0.56,"alr": 97.1270904541016,"edu": 96.5285110473633,"lifeEx": 74.545,"area": 912050,"pollution": 99.4041043,"growth": -3.89438647450662
         },
         {
             "outlines": [
@@ -6507,7 +6533,9 @@ Map.maps.push(new Map({
             "id": "VGB",
             "hdi": null,
             "alr": null,
-            "edu": 98.9684600830078,"lifeEx": null
+            "edu": 98.9684600830078,"lifeEx": null,
+            "area": 150,"pollution": null,
+            "growth": null
         },
         {
             "outlines": [
@@ -6526,7 +6554,7 @@ Map.maps.push(new Map({
             "hdi": null,
             "alr": null,
             "edu": null,
-            "lifeEx": 79.2682926829268
+            "lifeEx": 79.2682926829268,"area": 350,"pollution": 100,"growth": 0.19430051813471
         },
         {
             "outlines": [
@@ -6557,7 +6585,7 @@ Map.maps.push(new Map({
             ],
             "name": "Vietnam",
             "population": 95540800,"gdp": 205276172134.901,"id": "VNM",
-            "hdi": 0.48,"alr": 93.5204467773438,"edu": 109.97004699707,"lifeEx": 76.253
+            "hdi": 0.48,"alr": 93.5204467773438,"edu": 109.97004699707,"lifeEx": 76.253,"area": 330967,"pollution": 100,"growth": 6.8122456596398
         },
         {
             "outlines": [
@@ -6607,7 +6635,7 @@ Map.maps.push(new Map({
             "name": "Vanuatu",
             "population": 276244,"gdp": 773502895.927602,"id": "VUT",
             "hdi": null,
-            "alr": 74,"edu": 119.708618164063,"lifeEx": 72.133
+            "alr": 74,"edu": 119.708618164063,"lifeEx": 72.133,"area": 12190,"pollution": 0,"growth": 4.50068030474749
         },
         {
             "outlines": [
@@ -6639,7 +6667,7 @@ Map.maps.push(new Map({
             "name": "Samoa",
             "population": 196440,"gdp": 786356314.80277,"id": "WSM",
             "hdi": null,
-            "alr": 98.973258972168,"edu": 107.647392272949,"lifeEx": 75.013
+            "alr": 98.973258972168,"edu": 107.647392272949,"lifeEx": 75.013,"area": 2840,"pollution": 0,"growth": 2.50000000000001
         },
         {
             "outlines": [
@@ -6661,7 +6689,7 @@ Map.maps.push(new Map({
             ],
             "name": "Yemen",
             "population": 28250420,"gdp": 27317605346.0714,"id": "YEM",
-            "hdi": 0.3,"alr": 37.0900001525879,"edu": 92.4394302368164,"lifeEx": 64.953
+            "hdi": 0.3,"alr": 37.0900001525879,"edu": 92.4394302368164,"lifeEx": 64.953,"area": 527970,"pollution": 100,"growth": -34.339754357643
         },
         {
             "outlines": [
@@ -6692,7 +6720,7 @@ Map.maps.push(new Map({
             ],
             "name": "South Africa",
             "population": 56717156,"gdp": 295456189492.005,"id": "ZAF",
-            "hdi": 0.38,"alr": 94.367919921875,"edu": 102.79988861084,"lifeEx": 62.774
+            "hdi": 0.38,"alr": 94.367919921875,"edu": 102.79988861084,"lifeEx": 62.774,"area": 1219090,"pollution": 99.2738018,"growth": 1.32006116965503
         },
         {
             "outlines": [
@@ -6702,7 +6730,7 @@ Map.maps.push(new Map({
             ],
             "name": "Zambia",
             "population": 17094130,"gdp": 21063989682.5243,"id": "ZMB",
-            "hdi": 0.31,"alr": 83.0076675415039,"edu": 102.334091186523,"lifeEx": 61.874
+            "hdi": 0.31,"alr": 83.0076675415039,"edu": 102.334091186523,"lifeEx": 61.874,"area": 752610,"pollution": 99.9999807,"growth": 4.07671549730144
         },
         {
             "outlines": [
@@ -6712,7 +6740,7 @@ Map.maps.push(new Map({
             ],
             "name": "Zimbabwe",
             "population": 16529904,"gdp": 16619960401.9038,"id": "ZWE",
-            "hdi": 0.29,"alr": 88.6934204101563,"edu": 98.6941986083984,"lifeEx": 61.163
+            "hdi": 0.29,"alr": 88.6934204101563,"edu": 98.6941986083984,"lifeEx": 61.163,"area": 390760,"pollution": 99.9999984,"growth": 3.44709514477464
         }
     ],
     "name": "Earth"

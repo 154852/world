@@ -23,6 +23,20 @@ Input.choice('Choose a map for your world', 'Your map is the layout and the defa
     document.body.appendChild(svg);
 
     let last = null;
+    svg.addEventListener('click', function(event) {
+        const region = map.find({x: event.offsetX / scale, y: event.offsetY / scale});
+
+        if (region != null) {
+            UI.displayCountry(region);
+
+            if (last != null) {
+                document.body.style.cursor = '';
+                last.hoverOff();
+                last = null;
+            }
+        }
+    });
+
     svg.addEventListener('mousemove', function(event) {
         const region = map.find({x: event.offsetX / scale, y: event.offsetY / scale});
 
@@ -41,4 +55,14 @@ Input.choice('Choose a map for your world', 'Your map is the layout and the defa
             }
         }
     });
+
+    const toggleBezier = document.getElementById('tbc');
+    toggleBezier.addEventListener('click', function() {
+        map.bezier = !map.bezier;
+
+        if (map.bezier) toggleBezier.classList.add('selected');
+        else toggleBezier.classList.remove('selected');
+
+        map.refreshGFX();
+    })
 });

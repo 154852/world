@@ -1,5 +1,6 @@
 :root {
     --theme: #3498DB;
+    --theme2:#97d5ff;
     --bg: #1C2833;
     --color: white;
     --bg2: rgb(35, 53, 70);
@@ -52,7 +53,7 @@ html {
 .region {
     stroke-width: 0.5px;
 
-    transition: 0.5s;
+    transition: fill 0.2s linear;
 }
 
 .region-svg {

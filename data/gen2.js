@@ -270,6 +270,18 @@ const csvFiles = {
         path: 'data/education/edu.csv',
         worldbank: true
     },
+    area: {
+        path: 'data/area/area.csv',
+        worldbank: true
+    },
+    pollution: {
+        path: 'data/pollution/pol.csv',
+        worldbank: true
+    },
+    growth: {
+        path: 'data/eco-growth/growth.csv',
+        worldbank: true
+    },
     gdp: {
         path: 'data/gdp.csv',
         value: 'Value'

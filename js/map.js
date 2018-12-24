@@ -3,6 +3,7 @@ class Map {
         this.regions = [];
         this.name = '[none]';
         this.mode = 0;
+        this.bezier = true;
 
         Utils.addDataTo(this, data, {
             regions: Array,
@@ -25,7 +26,11 @@ class Map {
     setMode(index) {
         this.mode = index;
 
-        for (const region of this.regions) region.setMode(Map.modes[this.mode]);
+        this.refreshGFX();
+    }
+
+    refreshGFX() {
+        for (const region of this.regions) region.setMode(Map.modes[this.mode], this.bezier);
     }
 
     getSVG() {
@@ -51,33 +56,33 @@ Map.modes = [
     {
         name: 'Population',
         color: [[214, 234, 248], [46, 134, 193]],
-        change: (x) => x.population == null? null:Math.bezier(
+        change: (x, b) => x.population == null? null:(b? Math.bezier(
             x.population / 1400000000,
             {x: 0, y: 0},
             {x: 0.16, y: 1.06},
             {x: 0.58, y: 0.89},
             {x: 1, y: 1}
-        ).y
+        ).y:x.population / 1400000000)
     }, {
         name: 'GDP',
         color: [[232, 218, 239], [142, 68, 173]],
-        change: (x) => x.gdp == null? null:Math.bezier(
+        change: (x, b) => x.gdp == null? null:(b? Math.bezier(
             x.gdp / 20000000000000,
             {x: 0, y: 0},
-            {x: 0.0, y: 1},
-            {x: 0, y: 1},
+            {x: 0, y: 1.22},
+            {x: 0.12, y: 0.67},
             {x: 1, y: 1}
-        ).y
+        ).y:x.gdp / 20000000000000)
     }, {
         name: 'GDP Per Capita',
         color: [[208, 236, 231], [22, 160, 133]],
-        change: (x) => (x.gdp == null || x.population == null)? null:Math.bezier(
+        change: (x, b) => (x.gdp == null || x.population == null)? null:(b? Math.bezier(
             x.GDPPerCapita() / 150000,
             {x: 0, y: 0},
             {x: 0.0, y: 1},
             {x: 0, y: 1},
             {x: 1, y: 1}
-        ).y
+        ).y:x.GDPPerCapita() / 150000)
     }, {
         name: 'HDI',
         color: [[248, 187, 208], [233, 30, 99]],
@@ -89,17 +94,57 @@ Map.modes = [
     }, {
         name: 'Primary School Education',
         color: [[212, 230, 241], [84, 153, 199]],
-        change: (x) => x.edu == null? null:Math.bezier(
+        change: (x, b) => x.edu == null? null:(b? Math.bezier(
             x.edu / 100,
             {x: 0, y: 0},
             {x: 0.04, y: 0.58},
             {x: 0.46, y: 0.22},
             {x: 1, y: 1}
-        ).y
+        ).y:x.edu / 100)
     }, {
         name: 'Life Expectancy',
         color: [[246, 221, 204], [211, 84, 0]],
-        change: (x) => x.lifeEx == null? null:(x.lifeEx - 40) / 60
+        change: (x, b) => x.lifeEx == null? null:(b? Math.bezier(
+            (x.lifeEx - 30) / 70,
+            {x: 0, y: 0},
+            {x: 0, y: 0},
+            {x: 0, y: 0.85},
+            {x: 1, y: 1}
+        ).y:((x.lifeEx - 30) / 70))
+    }, {
+        name: 'Population Density',
+        color: [[252, 243, 207], [241, 196, 15]],
+        change: (x, b) => (x.population == null || x.area == null)? null:(b? Math.bezier(
+            x.populationDensity() * 0.003,
+            {x: 0, y: 0},
+            {x: 0, y: 1},
+            {x: 0, y: 1},
+            {x: 1, y: 1}
+        ).y:x.populationDensity() * 0.003)
+    }, {
+        name: 'Land Area',
+        color: [[235, 222, 240], [155, 89, 182]],
+        change: (x) => x.area == null? null:x.area / 17000000
+    }, {
+        name: 'GDP Growth',
+        color: [[250, 219, 216], [231, 76, 60]],
+        change: (x, b) => x.growth == null? null:(b? Math.bezier(
+            (x.growth + 3) / 30,
+            {x: 0, y: 0},
+            {x: 0, y: 1},
+            {x: 0, y: 1},
+            {x: 1, y: 1}
+        ).y:(x.growth + 3) / 30)
+    }, {
+        name: 'Pollution',
+        color: [[215, 204, 200], [93, 64, 55]],
+        change: (x, b) => x.pollution == null? null:(b? Math.bezier(
+            x.pollution / 100,
+            {x: 0, y: 0},
+            {x: 0, y: 0.71},
+            {x: 1, y: 0},
+            {x: 1, y: 1}
+        ).y:x.pollution / 100)
     }
 ]
 
@@ -109,13 +154,17 @@ class Region {
         this.cities = [];        
         this.name = '[none]';
         this.element = null;
-        this.population = 0;
-        this.gdp = 0;
+        this.population = null;
+        this.gdp = null;
         this.id = null;
-        this.hdi = 0;
-        this.alr = 0;
-        this.edu = 0;
-        this.lifeEx = 0;
+        this.hdi = null;
+        this.alr = null;
+        this.edu = null;
+        this.lifeEx = null;
+        this.colorOffset = 0;
+        this.area = null;
+        this.growth = null;
+        this.pollution = null;
 
         this.color = [0, 0, 0];
 
@@ -129,7 +178,10 @@ class Region {
             hdi: Number,
             alr: Number,
             edu: Number,
-            lifeEx: Number
+            lifeEx: Number,
+            area: Number,
+            growth: Number,
+            pollution: Number
         });
 
         const outlinesVectors = [];
@@ -143,7 +195,7 @@ class Region {
             outlinesVectors.push(outline);
         }
 
-        this.outlines = outlinesVectors;
+        this.outlines = outlinesVectors; 
     }
 
     getSVGPolygon() {
@@ -163,7 +215,47 @@ class Region {
             });
         }
 
+        this.element.style.stroke = 'rgba(125, 125, 125, 0.2)';
+
         return this.element;
+    }
+
+    box() {
+        const box = {top: 0, left: Infinity, right: 0, bottom: Infinity, width: 0, height: 0};
+
+        for (const outline of this.outlines) {
+            for (const vector of outline) {
+                if (vector.x < box.left) box.left = vector.x;
+                if (vector.x > box.right) box.right = vector.x;
+
+                if (vector.y < box.bottom) box.bottom = vector.y;
+                if (vector.y > box.top) box.top = vector.y;
+            }
+        }
+
+        box.width = box.right - box.left;
+        box.height = box.top - box.bottom;
+
+        return box;
+    }
+
+    getLoneSVG() {
+        const box = this.box();
+
+        const clone = this.element.cloneNode(true);
+
+        clone.css('fill', 'white');
+        clone.css('stroke', 'lightgray');
+
+        return Utils.createComplexElement(document.createElementNS('http://www.w3.org/2000/svg', 'svg'), {
+            children: [clone],
+            attr: {
+                'width': box.width,
+                'height': box.height,
+                'viewBox': [box.left, box.bottom, box.width, box.height],
+                'preserveAspectRatio': 'xMidYMid meet'
+            }
+        });
     }
 
     intersectsSingle(index, point) {
@@ -192,24 +284,19 @@ class Region {
     }
 
     hoverOn() {
-        this.color[0] += 30;
-        this.color[1] += 30;
-        this.color[2] += 30;
+        this.colorOffset = 30;
 
         this.updateColor();
     }
 
     hoverOff() {
-        this.color[0] -= 30;
-        this.color[1] -= 30;
-        this.color[2] -= 30;
+        this.colorOffset = 0;
 
-        this.updateColor();
+        this.updateColor(); 
     }
 
     updateColor() {
-        this.element.style.fill = 'rgb(' + this.color[0] + ',' + this.color[1] + ',' + this.color[2] + ')';
-        this.element.style.stroke = 'rgb(' + (this.color[0] - 30) + ',' + (this.color[1] - 30) + ',' + (this.color[2] - 30) + ')';
+        this.element.style.fill = 'rgb(' + (this.color[0] + this.colorOffset) + ',' + (this.color[1] + this.colorOffset) + ',' + (this.color[2] + this.colorOffset) + ')';
     }
 
     setColor(color) {
@@ -217,38 +304,16 @@ class Region {
         this.updateColor();
     }
 
-    singleArea(index) {
-        const vertices = this.outlines[index];
-
-        var total = 0;
-    
-        for (var i = 0, l = vertices.length; i < l; i++) {
-            var addX = vertices[i].x;
-            var addY = vertices[i == vertices.length - 1 ? 0 : i + 1].y;
-            var subX = vertices[i == vertices.length - 1 ? 0 : i + 1].x;
-            var subY = vertices[i].y;
-    
-            total += (addX * addY * 0.5);
-            total -= (subX * subY * 0.5);
-        }
-    
-        return Math.abs(total);
-    }
-
-    landMass() {
-        const total = 0;
-        for (let i = 0; i < this.outlines.length; i++) total += this.singleArea(i);
-
-        return total;
-    }
-
     GDPPerCapita() {
         return this.gdp / this.population;
     }
 
-    setMode(mode) {
-        const value = mode.change(this);
-        if (this.id == 'ISL') console.log(value)
+    populationDensity() {
+        return this.population / this.area;
+    }
+
+    setMode(mode, bezier) {
+        const value = mode.change(this, bezier);
 
         let color;
         if (value != null) {

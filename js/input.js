@@ -1,7 +1,7 @@
 const Input = {};
 
 Input.alert = function(title, text, callback) {
-    Input.cover(true);
+    Input.cover(true, true);
 
     const element = Utils.createComplexElement('div', {
         class: 'input-alert',
@@ -23,9 +23,9 @@ Input.alert = function(title, text, callback) {
                                 element.classList.add('closing');
                                 setTimeout(function() {
                                     document.body.removeChild(element);
-                                }, 500);
+                                }, 300);
 
-                                Input.cover(false);
+                                Input.cover(false); 
                                 
                                 if (callback) callback();
                             }
@@ -35,6 +35,8 @@ Input.alert = function(title, text, callback) {
             })
         ]
     })
+
+    Input.dismiss = () => element.querySelector('.button').click();
 
     return element;
 }
@@ -58,7 +60,9 @@ Input.choice = function(title, text, options, callback) {
                     const option = options[i];
                     const name = option.name || option;
                     const classes = ['button'];
-                    if (option.cancel) classes.push('cancel');
+                    if (option.cancel) {
+                        classes.push('cancel');
+                    }
 
                     Utils.createComplexElement('div', {
                         class: classes,
@@ -76,6 +80,11 @@ Input.choice = function(title, text, options, callback) {
                             }
                         },
                         parent: this
+                    }, function() {
+                        if (option.cancel) {
+                            Input.dismiss = this.click;
+                            Input.cover(null, true);
+                        }
                     })
                 }
             })
@@ -163,21 +172,37 @@ Input.numericalInput = function(title, text, callback) {
     })
 }
 
-Input.cover = function(on) {
+Input.cover = function(on, canClose) {
     let element = document.querySelector('.cover');
 
     if (element == null) {
         element = Utils.createComplexElement('div', {
             class: 'cover',
-            parent: document.body
+            parent: document.body,
+            listeners: {
+                click: () => Input.dismiss()
+            }
         });
+
+        document.querySelector('.input-close').addEventListener('click', function() {
+            Input.dismiss();
+        })
 
         element.offsetHeight; // reflow
     }
 
-    if (on) {
-        element.classList.add('active');
+    if (canClose) {
+        document.querySelector('.input-close').classList.remove('hidden');
     } else {
-        element.classList.remove('active');
+        document.querySelector('.input-close').classList.add('hidden');
     }
+
+    if (on != null)
+        if (on) {
+            element.classList.add('active');
+        } else {
+            element.classList.remove('active');
+        }
 }
+
+Input.dismiss = function() {};
